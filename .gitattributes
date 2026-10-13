@@ -1,0 +1,6 @@
+# Preserve distributed bytes, including frozen input receipts.
+* -text
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.pdf binary

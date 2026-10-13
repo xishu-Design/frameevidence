@@ -1,0 +1,238 @@
+{
+  "version": "formal-release-scale-v1.1",
+  "decision_date": "2026-08-13",
+  "status": "APPROVED_FOR_COMPACT_320_PRODUCTION",
+  "independent_analysis_unit": "relation_group_id",
+  "questions_per_group": 3,
+  "cohort_id": "cohort_formal_evaluation_v1",
+  "cohort_role": "formal_evaluation",
+  "first_group_number": 145,
+  "sample_id_prefix": "fce_test",
+  "active_tier": "compact_320",
+  "scenes": [
+    "indoor_tabletop",
+    "indoor_large_space",
+    "outdoor_public_space"
+  ],
+  "reference_frames": ["camera", "object_intrinsic", "world"],
+  "relations": ["axial", "quadrant"],
+  "answer_positions": ["A", "B", "C", "D"],
+  "historical_cohorts": {
+    "dry_run": {
+      "groups": 24,
+      "questions": 72,
+      "counts_toward_release": false
+    },
+    "formal_pilot": {
+      "groups": 120,
+      "questions": 360,
+      "cohort_role": "development_pilot",
+      "counts_toward_release": false
+    }
+  },
+  "statistical_assumptions": {
+    "two_sided_alpha": 0.05,
+    "power": 0.8,
+    "paired_model_discordance": 0.3,
+    "worst_case_proportion": 0.5,
+    "groups_per_task": 160,
+    "wilson_95_half_width_pp": 7.7,
+    "paired_difference_mde_pp": 12.1,
+    "positioning": "compact_high_control_diagnostic_benchmark",
+    "allowed_primary_inference": [
+      "overall_group_level_metrics",
+      "preregistered_one_factor_analysis",
+      "limited_preregistered_two_factor_analysis"
+    ],
+    "unsupported_claims": [
+      "three_or_more_factor_interactions",
+      "stable_model_ranking_at_3_to_5_percentage_points"
+    ]
+  },
+  "tiers": {
+    "compact_320": {
+      "release_wave": "compact_core_320",
+      "release_batch_id": "release_compact_core_320_v1",
+      "deployment_mode": "formal320",
+      "quota_filename": "formal_release_quota_compact_320.csv",
+      "quota_sha256": "e0be3ce751958236dc3a601f751a97a3555f0b8c9ee386a3b7262fd4f46de2f0",
+      "groups_total": 320,
+      "groups_per_task": 160,
+      "questions_total": 960,
+      "first_sample_number": 433,
+      "last_sample_number": 1392,
+      "candidate_group_attempts_at_20pct_rejection": 400,
+      "estimated_distinct_physical_images": {
+        "fq1": 480,
+        "fq2": 640,
+        "total": 1120
+      },
+      "total_resources_if_pilot_retained": {
+        "groups": 440,
+        "questions": 1320
+      },
+      "source_policy": {
+        "formal_assets": "internal_capture_only",
+        "internet_or_open_dataset_images_allowed": false,
+        "must_be_unpublished_before_release_freeze": true,
+        "restricted_source_record_is_external_to_online_system": true
+      },
+      "quota": {
+        "task_groups": {"FQ1": 160, "FQ2": 160},
+        "scene_totals": {
+          "FQ1": {
+            "indoor_tabletop": 54,
+            "indoor_large_space": 53,
+            "outdoor_public_space": 53
+          },
+          "FQ2": {
+            "indoor_tabletop": 54,
+            "indoor_large_space": 53,
+            "outdoor_public_space": 53
+          }
+        },
+        "relation_totals": {
+          "FQ1": {"axial": 80, "quadrant": 80},
+          "FQ2": {"axial": 80, "quadrant": 80}
+        },
+        "fq1": {
+          "image_count_totals": {"2": 53, "3": 54, "4": 53},
+          "scene_image_count_targets": {
+            "indoor_tabletop": {"2": 18, "3": 18, "4": 18},
+            "indoor_large_space": {"2": 18, "3": 18, "4": 17},
+            "outdoor_public_space": {"2": 17, "3": 18, "4": 18}
+          },
+          "axial_by_scene": {
+            "indoor_tabletop": 27,
+            "indoor_large_space": 26,
+            "outdoor_public_space": 27
+          },
+          "axial_by_image_count": {"2": 27, "3": 27, "4": 26},
+          "axial_by_scene_image_count": {
+            "indoor_tabletop": {"2": 9, "3": 9, "4": 9},
+            "indoor_large_space": {"2": 9, "3": 9, "4": 8},
+            "outdoor_public_space": {"2": 9, "3": 9, "4": 9}
+          }
+        },
+        "fq2": {
+          "reference_frame_totals": {"camera": 54, "object_intrinsic": 53, "world": 53},
+          "mss_count_totals": {"2": 53, "3": 54, "4": 53},
+          "delete_count": 1,
+          "distractor_count": 1,
+          "scene_frame_mss_targets": {
+            "indoor_tabletop": {
+              "camera": {"2": 6, "3": 6, "4": 6},
+              "object_intrinsic": {"2": 6, "3": 6, "4": 6},
+              "world": {"2": 6, "3": 6, "4": 6}
+            },
+            "indoor_large_space": {
+              "camera": {"2": 6, "3": 6, "4": 6},
+              "object_intrinsic": {"2": 5, "3": 6, "4": 6},
+              "world": {"2": 6, "3": 6, "4": 6}
+            },
+            "outdoor_public_space": {
+              "camera": {"2": 6, "3": 6, "4": 6},
+              "object_intrinsic": {"2": 6, "3": 6, "4": 6},
+              "world": {"2": 6, "3": 6, "4": 5}
+            }
+          },
+          "axial_by_scene": {
+            "indoor_tabletop": 27,
+            "indoor_large_space": 26,
+            "outdoor_public_space": 27
+          },
+          "axial_by_reference_frame": {"camera": 27, "object_intrinsic": 26, "world": 27},
+          "axial_by_mss_count": {"2": 26, "3": 27, "4": 27},
+          "axial_by_scene_frame_mss": {
+            "indoor_tabletop": {
+              "camera": {"2": 3, "3": 3, "4": 3},
+              "object_intrinsic": {"2": 3, "3": 3, "4": 3},
+              "world": {"2": 3, "3": 3, "4": 3}
+            },
+            "indoor_large_space": {
+              "camera": {"2": 3, "3": 3, "4": 3},
+              "object_intrinsic": {"2": 2, "3": 3, "4": 3},
+              "world": {"2": 3, "3": 3, "4": 3}
+            },
+            "outdoor_public_space": {
+              "camera": {"2": 3, "3": 3, "4": 3},
+              "object_intrinsic": {"2": 3, "3": 3, "4": 3},
+              "world": {"2": 3, "3": 3, "4": 3}
+            }
+          }
+        },
+        "answer_layout": {
+          "fq1_per_frame_position": {
+            "camera": {"A": 40, "B": 40, "C": 40, "D": 40},
+            "object_intrinsic": {"A": 40, "B": 40, "C": 40, "D": 40},
+            "world": {"A": 40, "B": 40, "C": 40, "D": 40}
+          },
+          "fq2_spatial_position_by_mss": {
+            "2": {"A": 14, "B": 13, "C": 13, "D": 13},
+            "3": {"A": 13, "B": 13, "C": 14, "D": 14},
+            "4": {"A": 13, "B": 14, "C": 13, "D": 13}
+          },
+          "fq2_insufficient_position_by_mss": {
+            "2": {"A": 14, "B": 13, "C": 13, "D": 13},
+            "3": {"A": 13, "B": 13, "C": 14, "D": 14},
+            "4": {"A": 13, "B": 14, "C": 13, "D": 13}
+          },
+          "fq2_ordered_pair_by_mss": {
+            "2": {
+              "A": {"A": 0, "B": 5, "C": 5, "D": 4},
+              "B": {"A": 5, "B": 0, "C": 4, "D": 4},
+              "C": {"A": 4, "B": 4, "C": 0, "D": 5},
+              "D": {"A": 5, "B": 4, "C": 4, "D": 0}
+            },
+            "3": {
+              "A": {"A": 0, "B": 4, "C": 4, "D": 5},
+              "B": {"A": 4, "B": 0, "C": 5, "D": 4},
+              "C": {"A": 4, "B": 5, "C": 0, "D": 5},
+              "D": {"A": 5, "B": 4, "C": 5, "D": 0}
+            },
+            "4": {
+              "A": {"A": 0, "B": 5, "C": 4, "D": 4},
+              "B": {"A": 4, "B": 0, "C": 5, "D": 5},
+              "C": {"A": 5, "B": 4, "C": 0, "D": 4},
+              "D": {"A": 4, "B": 5, "C": 4, "D": 0}
+            }
+          },
+          "fq2_global_answer_position": {"A": 120, "B": 120, "C": 120, "D": 120},
+          "fq2_count_only_condition_max_correct": 268,
+          "fq2_count_only_answer_max_correct": 122
+        }
+      }
+    }
+  },
+  "release_requirements": {
+    "human_blind_answerers": 2,
+    "third_person_adjudication": true,
+    "representative_model_count_min": 8,
+    "representative_model_count_target": 12,
+    "required_conditions": [
+      "all-images",
+      "text-only",
+      "single-image",
+      "count-only",
+      "count+option-schema"
+    ],
+    "external_manifest_fields": [
+      "cohort_role",
+      "scene_cluster_id",
+      "capture_batch_id",
+      "release_batch_id",
+      "release_wave"
+    ],
+    "question_schema_field_count": 17
+  },
+  "final_reporting": {
+    "denominator": "complete_verified_relation_group_id",
+    "confidence_interval_level": 0.95,
+    "model_comparison": "paired_by_relation_group_id",
+    "scene_reuse_adjustment": "cluster_by_scene_cluster_id",
+    "report_effective_responses": true,
+    "report_refusals": true,
+    "report_invalid_groups": true,
+    "candidate_or_rejected_groups_count_toward_release": false
+  }
+}

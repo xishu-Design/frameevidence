@@ -1,0 +1,1496 @@
+[
+  {
+    "group_id": "group_00307",
+    "published_deletion_stratum": "anchor_removed",
+    "mss_size": 2,
+    "mss_ids": [
+      "S01",
+      "S02"
+    ],
+    "published_deletion_ids": [
+      "S02"
+    ],
+    "addition_ids": [
+      "S01",
+      "S02",
+      "S03"
+    ],
+    "removed_id": "S01",
+    "added_id": "S03",
+    "published_deletion_references": [
+      {
+        "literal_zh": "图片一",
+        "ordinal": 1,
+        "original_anchor_id": "S01",
+        "current_positional_target_id": "S02",
+        "original_anchor_retained": false,
+        "positional_status": "different_image"
+      }
+    ]
+  },
+  {
+    "group_id": "group_00311",
+    "published_deletion_stratum": "ordinal_stable",
+    "mss_size": 3,
+    "mss_ids": [
+      "S01",
+      "S02",
+      "S03"
+    ],
+    "published_deletion_ids": [
+      "S01",
+      "S02"
+    ],
+    "addition_ids": [
+      "S01",
+      "S02",
+      "S03",
+      "S04"
+    ],
+    "removed_id": "S03",
+    "added_id": "S04",
+    "published_deletion_references": [
+      {
+        "literal_zh": "图二",
+        "ordinal": 2,
+        "original_anchor_id": "S02",
+        "current_positional_target_id": "S02",
+        "original_anchor_retained": true,
+        "positional_status": "same_image"
+      }
+    ]
+  },
+  {
+    "group_id": "group_00318",
+    "published_deletion_stratum": "anchor_removed",
+    "mss_size": 4,
+    "mss_ids": [
+      "S01",
+      "S02",
+      "S03",
+      "S04"
+    ],
+    "published_deletion_ids": [
+      "S02",
+      "S03",
+      "S04"
+    ],
+    "addition_ids": [
+      "S01",
+      "S02",
+      "S03",
+      "S04",
+      "S05"
+    ],
+    "removed_id": "S01",
+    "added_id": "S05",
+    "published_deletion_references": [
+      {
+        "literal_zh": "图一",
+        "ordinal": 1,
+        "original_anchor_id": "S01",
+        "current_positional_target_id": "S02",
+        "original_anchor_retained": false,
+        "positional_status": "different_image"
+      }
+    ]
+  },
+  {
+    "group_id": "group_00323",
+    "published_deletion_stratum": "anchor_removed",
+    "mss_size": 2,
+    "mss_ids": [
+      "S01",
+      "S02"
+    ],
+    "published_deletion_ids": [
+      "S02"
+    ],
+    "addition_ids": [
+      "S01",
+      "S02",
+      "S03"
+    ],
+    "removed_id": "S01",
+    "added_id": "S03",
+    "published_deletion_references": [
+      {
+        "literal_zh": "图一",
+        "ordinal": 1,
+        "original_anchor_id": "S01",
+        "current_positional_target_id": "S02",
+        "original_anchor_retained": false,
+        "positional_status": "different_image"
+      }
+    ]
+  },
+  {
+    "group_id": "group_00325",
+    "published_deletion_stratum": "anchor_removed",
+    "mss_size": 2,
+    "mss_ids": [
+      "S01",
+      "S02"
+    ],
+    "published_deletion_ids": [
+      "S02"
+    ],
+    "addition_ids": [
+      "S01",
+      "S02",
+      "S03"
+    ],
+    "removed_id": "S01",
+    "added_id": "S03",
+    "published_deletion_references": [
+      {
+        "literal_zh": "图一",
+        "ordinal": 1,
+        "original_anchor_id": "S01",
+        "current_positional_target_id": "S02",
+        "original_anchor_retained": false,
+        "positional_status": "different_image"
+      }
+    ]
+  },
+  {
+    "group_id": "group_00326",
+    "published_deletion_stratum": "anchor_removed",
+    "mss_size": 2,
+    "mss_ids": [
+      "S01",
+      "S02"
+    ],
+    "published_deletion_ids": [
+      "S02"
+    ],
+    "addition_ids": [
+      "S01",
+      "S02",
+      "S03"
+    ],
+    "removed_id": "S01",
+    "added_id": "S03",
+    "published_deletion_references": [
+      {
+        "literal_zh": "图一",
+        "ordinal": 1,
+        "original_anchor_id": "S01",
+        "current_positional_target_id": "S02",
+        "original_anchor_retained": false,
+        "positional_status": "different_image"
+      }
+    ]
+  },
+  {
+    "group_id": "group_00327",
+    "published_deletion_stratum": "no_ordinal",
+    "mss_size": 2,
+    "mss_ids": [
+      "S01",
+      "S02"
+    ],
+    "published_deletion_ids": [
+      "S02"
+    ],
+    "addition_ids": [
+      "S01",
+      "S02",
+      "S03"
+    ],
+    "removed_id": "S01",
+    "added_id": "S03",
+    "published_deletion_references": []
+  },
+  {
+    "group_id": "group_00328",
+    "published_deletion_stratum": "anchor_removed",
+    "mss_size": 2,
+    "mss_ids": [
+      "S01",
+      "S02"
+    ],
+    "published_deletion_ids": [
+      "S02"
+    ],
+    "addition_ids": [
+      "S01",
+      "S02",
+      "S03"
+    ],
+    "removed_id": "S01",
+    "added_id": "S03",
+    "published_deletion_references": [
+      {
+        "literal_zh": "图一",
+        "ordinal": 1,
+        "original_anchor_id": "S01",
+        "current_positional_target_id": "S02",
+        "original_anchor_retained": false,
+        "positional_status": "different_image"
+      }
+    ]
+  },
+  {
+    "group_id": "group_00333",
+    "published_deletion_stratum": "anchor_removed",
+    "mss_size": 3,
+    "mss_ids": [
+      "S01",
+      "S02",
+      "S03"
+    ],
+    "published_deletion_ids": [
+      "S02",
+      "S03"
+    ],
+    "addition_ids": [
+      "S01",
+      "S02",
+      "S03",
+      "S04"
+    ],
+    "removed_id": "S01",
+    "added_id": "S04",
+    "published_deletion_references": [
+      {
+        "literal_zh": "图一",
+        "ordinal": 1,
+        "original_anchor_id": "S01",
+        "current_positional_target_id": "S02",
+        "original_anchor_retained": false,
+        "positional_status": "different_image"
+      }
+    ]
+  },
+  {
+    "group_id": "group_00336",
+    "published_deletion_stratum": "no_ordinal",
+    "mss_size": 4,
+    "mss_ids": [
+      "S01",
+      "S02",
+      "S03",
+      "S04"
+    ],
+    "published_deletion_ids": [
+      "S02",
+      "S03",
+      "S04"
+    ],
+    "addition_ids": [
+      "S01",
+      "S02",
+      "S03",
+      "S04",
+      "S05"
+    ],
+    "removed_id": "S01",
+    "added_id": "S05",
+    "published_deletion_references": []
+  },
+  {
+    "group_id": "group_00337",
+    "published_deletion_stratum": "anchor_removed",
+    "mss_size": 4,
+    "mss_ids": [
+      "S01",
+      "S02",
+      "S03",
+      "S04"
+    ],
+    "published_deletion_ids": [
+      "S02",
+      "S03",
+      "S04"
+    ],
+    "addition_ids": [
+      "S01",
+      "S02",
+      "S03",
+      "S04",
+      "S05"
+    ],
+    "removed_id": "S01",
+    "added_id": "S05",
+    "published_deletion_references": [
+      {
+        "literal_zh": "图片一",
+        "ordinal": 1,
+        "original_anchor_id": "S01",
+        "current_positional_target_id": "S02",
+        "original_anchor_retained": false,
+        "positional_status": "different_image"
+      }
+    ]
+  },
+  {
+    "group_id": "group_00340",
+    "published_deletion_stratum": "anchor_removed",
+    "mss_size": 4,
+    "mss_ids": [
+      "S01",
+      "S02",
+      "S03",
+      "S04"
+    ],
+    "published_deletion_ids": [
+      "S02",
+      "S03",
+      "S04"
+    ],
+    "addition_ids": [
+      "S01",
+      "S02",
+      "S03",
+      "S04",
+      "S05"
+    ],
+    "removed_id": "S01",
+    "added_id": "S05",
+    "published_deletion_references": [
+      {
+        "literal_zh": "图片一",
+        "ordinal": 1,
+        "original_anchor_id": "S01",
+        "current_positional_target_id": "S02",
+        "original_anchor_retained": false,
+        "positional_status": "different_image"
+      }
+    ]
+  },
+  {
+    "group_id": "group_00341",
+    "published_deletion_stratum": "anchor_removed",
+    "mss_size": 2,
+    "mss_ids": [
+      "S01",
+      "S02"
+    ],
+    "published_deletion_ids": [
+      "S02"
+    ],
+    "addition_ids": [
+      "S01",
+      "S02",
+      "S03"
+    ],
+    "removed_id": "S01",
+    "added_id": "S03",
+    "published_deletion_references": [
+      {
+        "literal_zh": "图一",
+        "ordinal": 1,
+        "original_anchor_id": "S01",
+        "current_positional_target_id": "S02",
+        "original_anchor_retained": false,
+        "positional_status": "different_image"
+      }
+    ]
+  },
+  {
+    "group_id": "group_00347",
+    "published_deletion_stratum": "ordinal_stable",
+    "mss_size": 3,
+    "mss_ids": [
+      "S01",
+      "S02",
+      "S03"
+    ],
+    "published_deletion_ids": [
+      "S01",
+      "S02"
+    ],
+    "addition_ids": [
+      "S01",
+      "S02",
+      "S03",
+      "S04"
+    ],
+    "removed_id": "S03",
+    "added_id": "S04",
+    "published_deletion_references": [
+      {
+        "literal_zh": "图二",
+        "ordinal": 2,
+        "original_anchor_id": "S02",
+        "current_positional_target_id": "S02",
+        "original_anchor_retained": true,
+        "positional_status": "same_image"
+      }
+    ]
+  },
+  {
+    "group_id": "group_00349",
+    "published_deletion_stratum": "anchor_removed",
+    "mss_size": 3,
+    "mss_ids": [
+      "S01",
+      "S02",
+      "S03"
+    ],
+    "published_deletion_ids": [
+      "S02",
+      "S03"
+    ],
+    "addition_ids": [
+      "S01",
+      "S02",
+      "S03",
+      "S04"
+    ],
+    "removed_id": "S01",
+    "added_id": "S04",
+    "published_deletion_references": [
+      {
+        "literal_zh": "图一",
+        "ordinal": 1,
+        "original_anchor_id": "S01",
+        "current_positional_target_id": "S02",
+        "original_anchor_retained": false,
+        "positional_status": "different_image"
+      }
+    ]
+  },
+  {
+    "group_id": "group_00351",
+    "published_deletion_stratum": "anchor_removed",
+    "mss_size": 3,
+    "mss_ids": [
+      "S01",
+      "S02",
+      "S03"
+    ],
+    "published_deletion_ids": [
+      "S02",
+      "S03"
+    ],
+    "addition_ids": [
+      "S01",
+      "S02",
+      "S03",
+      "S04"
+    ],
+    "removed_id": "S01",
+    "added_id": "S04",
+    "published_deletion_references": [
+      {
+        "literal_zh": "图一",
+        "ordinal": 1,
+        "original_anchor_id": "S01",
+        "current_positional_target_id": "S02",
+        "original_anchor_retained": false,
+        "positional_status": "different_image"
+      }
+    ]
+  },
+  {
+    "group_id": "group_00354",
+    "published_deletion_stratum": "anchor_removed",
+    "mss_size": 4,
+    "mss_ids": [
+      "S01",
+      "S02",
+      "S03",
+      "S04"
+    ],
+    "published_deletion_ids": [
+      "S02",
+      "S03",
+      "S04"
+    ],
+    "addition_ids": [
+      "S01",
+      "S02",
+      "S03",
+      "S04",
+      "S05"
+    ],
+    "removed_id": "S01",
+    "added_id": "S05",
+    "published_deletion_references": [
+      {
+        "literal_zh": "图一",
+        "ordinal": 1,
+        "original_anchor_id": "S01",
+        "current_positional_target_id": "S02",
+        "original_anchor_retained": false,
+        "positional_status": "different_image"
+      }
+    ]
+  },
+  {
+    "group_id": "group_00360",
+    "published_deletion_stratum": "anchor_retained_shifted",
+    "mss_size": 2,
+    "mss_ids": [
+      "S01",
+      "S02"
+    ],
+    "published_deletion_ids": [
+      "S02"
+    ],
+    "addition_ids": [
+      "S01",
+      "S02",
+      "S03"
+    ],
+    "removed_id": "S01",
+    "added_id": "S03",
+    "published_deletion_references": [
+      {
+        "literal_zh": "图二",
+        "ordinal": 2,
+        "original_anchor_id": "S02",
+        "current_positional_target_id": null,
+        "original_anchor_retained": true,
+        "positional_status": "out_of_range"
+      }
+    ]
+  },
+  {
+    "group_id": "group_00361",
+    "published_deletion_stratum": "anchor_retained_shifted",
+    "mss_size": 2,
+    "mss_ids": [
+      "S01",
+      "S02"
+    ],
+    "published_deletion_ids": [
+      "S02"
+    ],
+    "addition_ids": [
+      "S01",
+      "S02",
+      "S03"
+    ],
+    "removed_id": "S01",
+    "added_id": "S03",
+    "published_deletion_references": [
+      {
+        "literal_zh": "图二",
+        "ordinal": 2,
+        "original_anchor_id": "S02",
+        "current_positional_target_id": null,
+        "original_anchor_retained": true,
+        "positional_status": "out_of_range"
+      }
+    ]
+  },
+  {
+    "group_id": "group_00364",
+    "published_deletion_stratum": "anchor_retained_shifted",
+    "mss_size": 2,
+    "mss_ids": [
+      "S01",
+      "S02"
+    ],
+    "published_deletion_ids": [
+      "S02"
+    ],
+    "addition_ids": [
+      "S01",
+      "S02",
+      "S03"
+    ],
+    "removed_id": "S01",
+    "added_id": "S03",
+    "published_deletion_references": [
+      {
+        "literal_zh": "图二",
+        "ordinal": 2,
+        "original_anchor_id": "S02",
+        "current_positional_target_id": null,
+        "original_anchor_retained": true,
+        "positional_status": "out_of_range"
+      }
+    ]
+  },
+  {
+    "group_id": "group_00368",
+    "published_deletion_stratum": "anchor_retained_shifted",
+    "mss_size": 3,
+    "mss_ids": [
+      "S01",
+      "S02",
+      "S03"
+    ],
+    "published_deletion_ids": [
+      "S02",
+      "S03"
+    ],
+    "addition_ids": [
+      "S01",
+      "S02",
+      "S03",
+      "S04"
+    ],
+    "removed_id": "S01",
+    "added_id": "S04",
+    "published_deletion_references": [
+      {
+        "literal_zh": "图二",
+        "ordinal": 2,
+        "original_anchor_id": "S02",
+        "current_positional_target_id": "S03",
+        "original_anchor_retained": true,
+        "positional_status": "different_image"
+      }
+    ]
+  },
+  {
+    "group_id": "group_00369",
+    "published_deletion_stratum": "anchor_removed",
+    "mss_size": 3,
+    "mss_ids": [
+      "S01",
+      "S02",
+      "S03"
+    ],
+    "published_deletion_ids": [
+      "S02",
+      "S03"
+    ],
+    "addition_ids": [
+      "S01",
+      "S02",
+      "S03",
+      "S04"
+    ],
+    "removed_id": "S01",
+    "added_id": "S04",
+    "published_deletion_references": [
+      {
+        "literal_zh": "图一",
+        "ordinal": 1,
+        "original_anchor_id": "S01",
+        "current_positional_target_id": "S02",
+        "original_anchor_retained": false,
+        "positional_status": "different_image"
+      }
+    ]
+  },
+  {
+    "group_id": "group_00370",
+    "published_deletion_stratum": "anchor_retained_shifted",
+    "mss_size": 3,
+    "mss_ids": [
+      "S01",
+      "S02",
+      "S03"
+    ],
+    "published_deletion_ids": [
+      "S02",
+      "S03"
+    ],
+    "addition_ids": [
+      "S01",
+      "S02",
+      "S03",
+      "S04"
+    ],
+    "removed_id": "S01",
+    "added_id": "S04",
+    "published_deletion_references": [
+      {
+        "literal_zh": "图二",
+        "ordinal": 2,
+        "original_anchor_id": "S02",
+        "current_positional_target_id": "S03",
+        "original_anchor_retained": true,
+        "positional_status": "different_image"
+      }
+    ]
+  },
+  {
+    "group_id": "group_00373",
+    "published_deletion_stratum": "anchor_removed",
+    "mss_size": 4,
+    "mss_ids": [
+      "S01",
+      "S02",
+      "S03",
+      "S04"
+    ],
+    "published_deletion_ids": [
+      "S02",
+      "S03",
+      "S04"
+    ],
+    "addition_ids": [
+      "S01",
+      "S02",
+      "S03",
+      "S04",
+      "S05"
+    ],
+    "removed_id": "S01",
+    "added_id": "S05",
+    "published_deletion_references": [
+      {
+        "literal_zh": "图一",
+        "ordinal": 1,
+        "original_anchor_id": "S01",
+        "current_positional_target_id": "S02",
+        "original_anchor_retained": false,
+        "positional_status": "different_image"
+      }
+    ]
+  },
+  {
+    "group_id": "group_00377",
+    "published_deletion_stratum": "anchor_removed",
+    "mss_size": 2,
+    "mss_ids": [
+      "S01",
+      "S02"
+    ],
+    "published_deletion_ids": [
+      "S02"
+    ],
+    "addition_ids": [
+      "S01",
+      "S02",
+      "S03"
+    ],
+    "removed_id": "S01",
+    "added_id": "S03",
+    "published_deletion_references": [
+      {
+        "literal_zh": "图一",
+        "ordinal": 1,
+        "original_anchor_id": "S01",
+        "current_positional_target_id": "S02",
+        "original_anchor_retained": false,
+        "positional_status": "different_image"
+      }
+    ]
+  },
+  {
+    "group_id": "group_00385",
+    "published_deletion_stratum": "anchor_removed",
+    "mss_size": 3,
+    "mss_ids": [
+      "S01",
+      "S02",
+      "S03"
+    ],
+    "published_deletion_ids": [
+      "S02",
+      "S03"
+    ],
+    "addition_ids": [
+      "S01",
+      "S02",
+      "S03",
+      "S04"
+    ],
+    "removed_id": "S01",
+    "added_id": "S04",
+    "published_deletion_references": [
+      {
+        "literal_zh": "图一",
+        "ordinal": 1,
+        "original_anchor_id": "S01",
+        "current_positional_target_id": "S02",
+        "original_anchor_retained": false,
+        "positional_status": "different_image"
+      }
+    ]
+  },
+  {
+    "group_id": "group_00389",
+    "published_deletion_stratum": "anchor_removed",
+    "mss_size": 4,
+    "mss_ids": [
+      "S01",
+      "S02",
+      "S03",
+      "S04"
+    ],
+    "published_deletion_ids": [
+      "S02",
+      "S03",
+      "S04"
+    ],
+    "addition_ids": [
+      "S01",
+      "S02",
+      "S03",
+      "S04",
+      "S05"
+    ],
+    "removed_id": "S01",
+    "added_id": "S05",
+    "published_deletion_references": [
+      {
+        "literal_zh": "图一",
+        "ordinal": 1,
+        "original_anchor_id": "S01",
+        "current_positional_target_id": "S02",
+        "original_anchor_retained": false,
+        "positional_status": "different_image"
+      }
+    ]
+  },
+  {
+    "group_id": "group_00392",
+    "published_deletion_stratum": "anchor_removed",
+    "mss_size": 4,
+    "mss_ids": [
+      "S01",
+      "S02",
+      "S03",
+      "S04"
+    ],
+    "published_deletion_ids": [
+      "S02",
+      "S03",
+      "S04"
+    ],
+    "addition_ids": [
+      "S01",
+      "S02",
+      "S03",
+      "S04",
+      "S05"
+    ],
+    "removed_id": "S01",
+    "added_id": "S05",
+    "published_deletion_references": [
+      {
+        "literal_zh": "图一",
+        "ordinal": 1,
+        "original_anchor_id": "S01",
+        "current_positional_target_id": "S02",
+        "original_anchor_retained": false,
+        "positional_status": "different_image"
+      }
+    ]
+  },
+  {
+    "group_id": "group_00396",
+    "published_deletion_stratum": "anchor_removed",
+    "mss_size": 2,
+    "mss_ids": [
+      "S01",
+      "S02"
+    ],
+    "published_deletion_ids": [
+      "S02"
+    ],
+    "addition_ids": [
+      "S01",
+      "S02",
+      "S03"
+    ],
+    "removed_id": "S01",
+    "added_id": "S03",
+    "published_deletion_references": [
+      {
+        "literal_zh": "图一",
+        "ordinal": 1,
+        "original_anchor_id": "S01",
+        "current_positional_target_id": "S02",
+        "original_anchor_retained": false,
+        "positional_status": "different_image"
+      }
+    ]
+  },
+  {
+    "group_id": "group_00400",
+    "published_deletion_stratum": "anchor_removed",
+    "mss_size": 3,
+    "mss_ids": [
+      "S01",
+      "S02",
+      "S03"
+    ],
+    "published_deletion_ids": [
+      "S02",
+      "S03"
+    ],
+    "addition_ids": [
+      "S01",
+      "S02",
+      "S03",
+      "S04"
+    ],
+    "removed_id": "S01",
+    "added_id": "S04",
+    "published_deletion_references": [
+      {
+        "literal_zh": "图一",
+        "ordinal": 1,
+        "original_anchor_id": "S01",
+        "current_positional_target_id": "S02",
+        "original_anchor_retained": false,
+        "positional_status": "different_image"
+      }
+    ]
+  },
+  {
+    "group_id": "group_00401",
+    "published_deletion_stratum": "anchor_removed",
+    "mss_size": 3,
+    "mss_ids": [
+      "S01",
+      "S02",
+      "S03"
+    ],
+    "published_deletion_ids": [
+      "S02",
+      "S03"
+    ],
+    "addition_ids": [
+      "S01",
+      "S02",
+      "S03",
+      "S04"
+    ],
+    "removed_id": "S01",
+    "added_id": "S04",
+    "published_deletion_references": [
+      {
+        "literal_zh": "图一",
+        "ordinal": 1,
+        "original_anchor_id": "S01",
+        "current_positional_target_id": "S02",
+        "original_anchor_retained": false,
+        "positional_status": "different_image"
+      }
+    ]
+  },
+  {
+    "group_id": "group_00405",
+    "published_deletion_stratum": "anchor_retained_shifted",
+    "mss_size": 3,
+    "mss_ids": [
+      "S01",
+      "S02",
+      "S03"
+    ],
+    "published_deletion_ids": [
+      "S02",
+      "S03"
+    ],
+    "addition_ids": [
+      "S01",
+      "S02",
+      "S03",
+      "S04"
+    ],
+    "removed_id": "S01",
+    "added_id": "S04",
+    "published_deletion_references": [
+      {
+        "literal_zh": "图三",
+        "ordinal": 3,
+        "original_anchor_id": "S03",
+        "current_positional_target_id": null,
+        "original_anchor_retained": true,
+        "positional_status": "out_of_range"
+      }
+    ]
+  },
+  {
+    "group_id": "group_00406",
+    "published_deletion_stratum": "anchor_removed",
+    "mss_size": 4,
+    "mss_ids": [
+      "S01",
+      "S02",
+      "S03",
+      "S04"
+    ],
+    "published_deletion_ids": [
+      "S02",
+      "S03",
+      "S04"
+    ],
+    "addition_ids": [
+      "S01",
+      "S02",
+      "S03",
+      "S04",
+      "S05"
+    ],
+    "removed_id": "S01",
+    "added_id": "S05",
+    "published_deletion_references": [
+      {
+        "literal_zh": "图一",
+        "ordinal": 1,
+        "original_anchor_id": "S01",
+        "current_positional_target_id": "S02",
+        "original_anchor_retained": false,
+        "positional_status": "different_image"
+      }
+    ]
+  },
+  {
+    "group_id": "group_00412",
+    "published_deletion_stratum": "anchor_removed",
+    "mss_size": 2,
+    "mss_ids": [
+      "S01",
+      "S02"
+    ],
+    "published_deletion_ids": [
+      "S02"
+    ],
+    "addition_ids": [
+      "S01",
+      "S02",
+      "S03"
+    ],
+    "removed_id": "S01",
+    "added_id": "S03",
+    "published_deletion_references": [
+      {
+        "literal_zh": "图一",
+        "ordinal": 1,
+        "original_anchor_id": "S01",
+        "current_positional_target_id": "S02",
+        "original_anchor_retained": false,
+        "positional_status": "different_image"
+      }
+    ]
+  },
+  {
+    "group_id": "group_00417",
+    "published_deletion_stratum": "no_ordinal",
+    "mss_size": 2,
+    "mss_ids": [
+      "S01",
+      "S02"
+    ],
+    "published_deletion_ids": [
+      "S02"
+    ],
+    "addition_ids": [
+      "S01",
+      "S02",
+      "S03"
+    ],
+    "removed_id": "S01",
+    "added_id": "S03",
+    "published_deletion_references": []
+  },
+  {
+    "group_id": "group_00418",
+    "published_deletion_stratum": "anchor_removed",
+    "mss_size": 3,
+    "mss_ids": [
+      "S01",
+      "S02",
+      "S03"
+    ],
+    "published_deletion_ids": [
+      "S02",
+      "S03"
+    ],
+    "addition_ids": [
+      "S01",
+      "S02",
+      "S03",
+      "S04"
+    ],
+    "removed_id": "S01",
+    "added_id": "S04",
+    "published_deletion_references": [
+      {
+        "literal_zh": "图一",
+        "ordinal": 1,
+        "original_anchor_id": "S01",
+        "current_positional_target_id": "S02",
+        "original_anchor_retained": false,
+        "positional_status": "different_image"
+      }
+    ]
+  },
+  {
+    "group_id": "group_00424",
+    "published_deletion_stratum": "no_ordinal",
+    "mss_size": 4,
+    "mss_ids": [
+      "S01",
+      "S02",
+      "S03",
+      "S04"
+    ],
+    "published_deletion_ids": [
+      "S02",
+      "S03",
+      "S04"
+    ],
+    "addition_ids": [
+      "S01",
+      "S02",
+      "S03",
+      "S04",
+      "S05"
+    ],
+    "removed_id": "S01",
+    "added_id": "S05",
+    "published_deletion_references": []
+  },
+  {
+    "group_id": "group_00426",
+    "published_deletion_stratum": "anchor_removed",
+    "mss_size": 4,
+    "mss_ids": [
+      "S01",
+      "S02",
+      "S03",
+      "S04"
+    ],
+    "published_deletion_ids": [
+      "S02",
+      "S03",
+      "S04"
+    ],
+    "addition_ids": [
+      "S01",
+      "S02",
+      "S03",
+      "S04",
+      "S05"
+    ],
+    "removed_id": "S01",
+    "added_id": "S05",
+    "published_deletion_references": [
+      {
+        "literal_zh": "图一",
+        "ordinal": 1,
+        "original_anchor_id": "S01",
+        "current_positional_target_id": "S02",
+        "original_anchor_retained": false,
+        "positional_status": "different_image"
+      }
+    ]
+  },
+  {
+    "group_id": "group_00427",
+    "published_deletion_stratum": "anchor_removed",
+    "mss_size": 4,
+    "mss_ids": [
+      "S01",
+      "S02",
+      "S03",
+      "S04"
+    ],
+    "published_deletion_ids": [
+      "S02",
+      "S03",
+      "S04"
+    ],
+    "addition_ids": [
+      "S01",
+      "S02",
+      "S03",
+      "S04",
+      "S05"
+    ],
+    "removed_id": "S01",
+    "added_id": "S05",
+    "published_deletion_references": [
+      {
+        "literal_zh": "图一",
+        "ordinal": 1,
+        "original_anchor_id": "S01",
+        "current_positional_target_id": "S02",
+        "original_anchor_retained": false,
+        "positional_status": "different_image"
+      }
+    ]
+  },
+  {
+    "group_id": "group_00433",
+    "published_deletion_stratum": "anchor_removed",
+    "mss_size": 2,
+    "mss_ids": [
+      "S01",
+      "S02"
+    ],
+    "published_deletion_ids": [
+      "S02"
+    ],
+    "addition_ids": [
+      "S01",
+      "S02",
+      "S03"
+    ],
+    "removed_id": "S01",
+    "added_id": "S03",
+    "published_deletion_references": [
+      {
+        "literal_zh": "图一",
+        "ordinal": 1,
+        "original_anchor_id": "S01",
+        "current_positional_target_id": "S02",
+        "original_anchor_retained": false,
+        "positional_status": "different_image"
+      }
+    ]
+  },
+  {
+    "group_id": "group_00436",
+    "published_deletion_stratum": "anchor_removed",
+    "mss_size": 3,
+    "mss_ids": [
+      "S01",
+      "S02",
+      "S03"
+    ],
+    "published_deletion_ids": [
+      "S02",
+      "S03"
+    ],
+    "addition_ids": [
+      "S01",
+      "S02",
+      "S03",
+      "S04"
+    ],
+    "removed_id": "S01",
+    "added_id": "S04",
+    "published_deletion_references": [
+      {
+        "literal_zh": "图一",
+        "ordinal": 1,
+        "original_anchor_id": "S01",
+        "current_positional_target_id": "S02",
+        "original_anchor_retained": false,
+        "positional_status": "different_image"
+      }
+    ]
+  },
+  {
+    "group_id": "group_00443",
+    "published_deletion_stratum": "anchor_removed",
+    "mss_size": 4,
+    "mss_ids": [
+      "S01",
+      "S02",
+      "S03",
+      "S04"
+    ],
+    "published_deletion_ids": [
+      "S02",
+      "S03",
+      "S04"
+    ],
+    "addition_ids": [
+      "S01",
+      "S02",
+      "S03",
+      "S04",
+      "S05"
+    ],
+    "removed_id": "S01",
+    "added_id": "S05",
+    "published_deletion_references": [
+      {
+        "literal_zh": "图一",
+        "ordinal": 1,
+        "original_anchor_id": "S01",
+        "current_positional_target_id": "S02",
+        "original_anchor_retained": false,
+        "positional_status": "different_image"
+      }
+    ]
+  },
+  {
+    "group_id": "group_00448",
+    "published_deletion_stratum": "anchor_removed",
+    "mss_size": 2,
+    "mss_ids": [
+      "S01",
+      "S02"
+    ],
+    "published_deletion_ids": [
+      "S02"
+    ],
+    "addition_ids": [
+      "S01",
+      "S02",
+      "S03"
+    ],
+    "removed_id": "S01",
+    "added_id": "S03",
+    "published_deletion_references": [
+      {
+        "literal_zh": "图一",
+        "ordinal": 1,
+        "original_anchor_id": "S01",
+        "current_positional_target_id": "S02",
+        "original_anchor_retained": false,
+        "positional_status": "different_image"
+      }
+    ]
+  },
+  {
+    "group_id": "group_00452",
+    "published_deletion_stratum": "anchor_removed",
+    "mss_size": 2,
+    "mss_ids": [
+      "S01",
+      "S02"
+    ],
+    "published_deletion_ids": [
+      "S02"
+    ],
+    "addition_ids": [
+      "S01",
+      "S02",
+      "S03"
+    ],
+    "removed_id": "S01",
+    "added_id": "S03",
+    "published_deletion_references": [
+      {
+        "literal_zh": "图一",
+        "ordinal": 1,
+        "original_anchor_id": "S01",
+        "current_positional_target_id": "S02",
+        "original_anchor_retained": false,
+        "positional_status": "different_image"
+      }
+    ]
+  },
+  {
+    "group_id": "group_00454",
+    "published_deletion_stratum": "anchor_removed",
+    "mss_size": 3,
+    "mss_ids": [
+      "S01",
+      "S02",
+      "S03"
+    ],
+    "published_deletion_ids": [
+      "S02",
+      "S03"
+    ],
+    "addition_ids": [
+      "S01",
+      "S02",
+      "S03",
+      "S04"
+    ],
+    "removed_id": "S01",
+    "added_id": "S04",
+    "published_deletion_references": [
+      {
+        "literal_zh": "图一",
+        "ordinal": 1,
+        "original_anchor_id": "S01",
+        "current_positional_target_id": "S02",
+        "original_anchor_retained": false,
+        "positional_status": "different_image"
+      }
+    ]
+  },
+  {
+    "group_id": "group_00455",
+    "published_deletion_stratum": "anchor_removed",
+    "mss_size": 3,
+    "mss_ids": [
+      "S01",
+      "S02",
+      "S03"
+    ],
+    "published_deletion_ids": [
+      "S02",
+      "S03"
+    ],
+    "addition_ids": [
+      "S01",
+      "S02",
+      "S03",
+      "S04"
+    ],
+    "removed_id": "S01",
+    "added_id": "S04",
+    "published_deletion_references": [
+      {
+        "literal_zh": "图一",
+        "ordinal": 1,
+        "original_anchor_id": "S01",
+        "current_positional_target_id": "S02",
+        "original_anchor_retained": false,
+        "positional_status": "different_image"
+      }
+    ]
+  },
+  {
+    "group_id": "group_00460",
+    "published_deletion_stratum": "anchor_removed",
+    "mss_size": 4,
+    "mss_ids": [
+      "S01",
+      "S02",
+      "S03",
+      "S04"
+    ],
+    "published_deletion_ids": [
+      "S02",
+      "S03",
+      "S04"
+    ],
+    "addition_ids": [
+      "S01",
+      "S02",
+      "S03",
+      "S04",
+      "S05"
+    ],
+    "removed_id": "S01",
+    "added_id": "S05",
+    "published_deletion_references": [
+      {
+        "literal_zh": "图一",
+        "ordinal": 1,
+        "original_anchor_id": "S01",
+        "current_positional_target_id": "S02",
+        "original_anchor_retained": false,
+        "positional_status": "different_image"
+      }
+    ]
+  },
+  {
+    "group_id": "group_00461",
+    "published_deletion_stratum": "anchor_removed",
+    "mss_size": 4,
+    "mss_ids": [
+      "S01",
+      "S02",
+      "S03",
+      "S04"
+    ],
+    "published_deletion_ids": [
+      "S02",
+      "S03",
+      "S04"
+    ],
+    "addition_ids": [
+      "S01",
+      "S02",
+      "S03",
+      "S04",
+      "S05"
+    ],
+    "removed_id": "S01",
+    "added_id": "S05",
+    "published_deletion_references": [
+      {
+        "literal_zh": "图一",
+        "ordinal": 1,
+        "original_anchor_id": "S01",
+        "current_positional_target_id": "S02",
+        "original_anchor_retained": false,
+        "positional_status": "different_image"
+      }
+    ]
+  }
+]

@@ -1,0 +1,1932 @@
+{
+  "ordinary": {
+    "models": [
+      {
+        "n": 288,
+        "correct": 87,
+        "accuracy": 0.3020833333333333,
+        "macro_precision": 0.3034295404208195,
+        "macro_recall": 0.30538582060321184,
+        "macro_f1": 0.2935943843826717,
+        "joint": {
+          "FQ1_GEM": [
+            1,
+            48
+          ],
+          "NTS": [
+            4,
+            48
+          ],
+          "DIS": [
+            10,
+            48
+          ]
+        },
+        "family": "internvl3-8b",
+        "setting": "base-multiseed-control",
+        "model_id": "internvl3-8b-base-multiseed-control"
+      },
+      {
+        "n": 288,
+        "correct": 95,
+        "accuracy": 0.3298611111111111,
+        "macro_precision": 0.34318175966770226,
+        "macro_recall": 0.33201835375748423,
+        "macro_f1": 0.3150412878179236,
+        "joint": {
+          "FQ1_GEM": [
+            0,
+            48
+          ],
+          "NTS": [
+            5,
+            48
+          ],
+          "DIS": [
+            7,
+            48
+          ]
+        },
+        "family": "internvl3-8b",
+        "setting": "lora-seed20260722",
+        "model_id": "internvl3-8b-lora-seed20260722"
+      },
+      {
+        "n": 288,
+        "correct": 89,
+        "accuracy": 0.3090277777777778,
+        "macro_precision": 0.3209111350896679,
+        "macro_recall": 0.3118832186223491,
+        "macro_f1": 0.2910966035966036,
+        "joint": {
+          "FQ1_GEM": [
+            0,
+            48
+          ],
+          "NTS": [
+            4,
+            48
+          ],
+          "DIS": [
+            5,
+            48
+          ]
+        },
+        "family": "internvl3-8b",
+        "setting": "lora-seed20260723",
+        "model_id": "internvl3-8b-lora-seed20260723"
+      },
+      {
+        "n": 288,
+        "correct": 96,
+        "accuracy": 0.3333333333333333,
+        "macro_precision": 0.3385212950890917,
+        "macro_recall": 0.3364210172905825,
+        "macro_f1": 0.3184608017862996,
+        "joint": {
+          "FQ1_GEM": [
+            1,
+            48
+          ],
+          "NTS": [
+            5,
+            48
+          ],
+          "DIS": [
+            6,
+            48
+          ]
+        },
+        "family": "internvl3-8b",
+        "setting": "lora-seed20260724",
+        "model_id": "internvl3-8b-lora-seed20260724"
+      },
+      {
+        "n": 288,
+        "correct": 84,
+        "accuracy": 0.2916666666666667,
+        "macro_precision": 0.3087200763301493,
+        "macro_recall": 0.2977082983604723,
+        "macro_f1": 0.26354436405546555,
+        "joint": {
+          "FQ1_GEM": [
+            0,
+            48
+          ],
+          "NTS": [
+            1,
+            48
+          ],
+          "DIS": [
+            22,
+            48
+          ]
+        },
+        "family": "qwen25-vl-7b",
+        "setting": "base-multiseed-control",
+        "model_id": "qwen25-vl-7b-base-multiseed-control"
+      },
+      {
+        "n": 288,
+        "correct": 103,
+        "accuracy": 0.3576388888888889,
+        "macro_precision": 0.35744769659276143,
+        "macro_recall": 0.3588274299143865,
+        "macro_f1": 0.3500159494047012,
+        "joint": {
+          "FQ1_GEM": [
+            0,
+            48
+          ],
+          "NTS": [
+            4,
+            48
+          ],
+          "DIS": [
+            6,
+            48
+          ]
+        },
+        "family": "qwen25-vl-7b",
+        "setting": "lora-seed20260722",
+        "model_id": "qwen25-vl-7b-lora-seed20260722"
+      },
+      {
+        "n": 288,
+        "correct": 100,
+        "accuracy": 0.3472222222222222,
+        "macro_precision": 0.3510062893081761,
+        "macro_recall": 0.3484992445862011,
+        "macro_f1": 0.3398796980234409,
+        "joint": {
+          "FQ1_GEM": [
+            0,
+            48
+          ],
+          "NTS": [
+            4,
+            48
+          ],
+          "DIS": [
+            6,
+            48
+          ]
+        },
+        "family": "qwen25-vl-7b",
+        "setting": "lora-seed20260723",
+        "model_id": "qwen25-vl-7b-lora-seed20260723"
+      },
+      {
+        "n": 288,
+        "correct": 108,
+        "accuracy": 0.375,
+        "macro_precision": 0.3752798142717497,
+        "macro_recall": 0.3756944211292037,
+        "macro_f1": 0.3710033111573428,
+        "joint": {
+          "FQ1_GEM": [
+            0,
+            48
+          ],
+          "NTS": [
+            7,
+            48
+          ],
+          "DIS": [
+            6,
+            48
+          ]
+        },
+        "family": "qwen25-vl-7b",
+        "setting": "lora-seed20260724",
+        "model_id": "qwen25-vl-7b-lora-seed20260724"
+      }
+    ],
+    "families": {
+      "internvl3-8b": {
+        "macro_precision": {
+          "mean": 33.42047299488206,
+          "sample_sd": 1.1746051708194938
+        },
+        "macro_recall": {
+          "mean": 32.677419655680524,
+          "sample_sd": 1.3082498974957497
+        },
+        "macro_f1": {
+          "mean": 30.81995644002756,
+          "sample_sd": 1.490995372675366
+        },
+        "accuracy": {
+          "mean": 32.407407407407405,
+          "sample_sd": 1.3145621170833937
+        },
+        "FQ1_GEM": {
+          "mean": 0.6944444444444443,
+          "sample_sd": 1.2028130608117202
+        },
+        "NTS": {
+          "mean": 9.722222222222223,
+          "sample_sd": 1.2028130608117218
+        },
+        "DIS": {
+          "mean": 12.5,
+          "sample_sd": 2.083333333333333
+        }
+      },
+      "qwen25-vl-7b": {
+        "macro_precision": {
+          "mean": 36.12446000575624,
+          "sample_sd": 1.2574313519237172
+        },
+        "macro_recall": {
+          "mean": 36.10070318765971,
+          "sample_sd": 1.3727978923953963
+        },
+        "macro_f1": {
+          "mean": 35.363298619516165,
+          "sample_sd": 1.5873942169003126
+        },
+        "accuracy": {
+          "mean": 35.995370370370374,
+          "sample_sd": 1.4032819042803404
+        },
+        "FQ1_GEM": {
+          "mean": 0.0,
+          "sample_sd": 0.0
+        },
+        "NTS": {
+          "mean": 10.416666666666666,
+          "sample_sd": 3.6084391824351623
+        },
+        "DIS": {
+          "mean": 12.5,
+          "sample_sd": 0.0
+        }
+      }
+    }
+  },
+  "circular_complete": {
+    "models": [
+      {
+        "model_id": "internvl3-8b-base-multiseed-control",
+        "rotation_correct": [
+          87,
+          76,
+          76,
+          84
+        ],
+        "source_items": 288,
+        "rotation_items": 1152,
+        "circular_correct": 22,
+        "consistent_items": 68,
+        "vanilla": 30.208333333333332,
+        "mean_rotation": 28.038194444444443,
+        "circular": 7.638888888888889,
+        "consistency": 23.61111111111111,
+        "drop": 22.569444444444446,
+        "ordinary_vs_circular_r0": {
+          "same_predictions": 278,
+          "total": 288,
+          "ordinary_correct": 87
+        }
+      },
+      {
+        "model_id": "internvl3-8b-lora-seed20260722",
+        "rotation_correct": [
+          96,
+          92,
+          78,
+          96
+        ],
+        "source_items": 288,
+        "rotation_items": 1152,
+        "circular_correct": 21,
+        "consistent_items": 55,
+        "vanilla": 33.33333333333333,
+        "mean_rotation": 31.42361111111111,
+        "circular": 7.291666666666667,
+        "consistency": 19.09722222222222,
+        "drop": 26.041666666666668,
+        "ordinary_vs_circular_r0": {
+          "same_predictions": 273,
+          "total": 288,
+          "ordinary_correct": 95
+        }
+      },
+      {
+        "model_id": "internvl3-8b-lora-seed20260723",
+        "rotation_correct": [
+          97,
+          88,
+          80,
+          93
+        ],
+        "source_items": 288,
+        "rotation_items": 1152,
+        "circular_correct": 16,
+        "consistent_items": 51,
+        "vanilla": 33.68055555555556,
+        "mean_rotation": 31.07638888888889,
+        "circular": 5.555555555555555,
+        "consistency": 17.708333333333336,
+        "drop": 28.125,
+        "ordinary_vs_circular_r0": {
+          "same_predictions": 262,
+          "total": 288,
+          "ordinary_correct": 89
+        }
+      },
+      {
+        "model_id": "internvl3-8b-lora-seed20260724",
+        "rotation_correct": [
+          90,
+          92,
+          76,
+          91
+        ],
+        "source_items": 288,
+        "rotation_items": 1152,
+        "circular_correct": 15,
+        "consistent_items": 46,
+        "vanilla": 31.25,
+        "mean_rotation": 30.29513888888889,
+        "circular": 5.208333333333334,
+        "consistency": 15.972222222222221,
+        "drop": 26.041666666666668,
+        "ordinary_vs_circular_r0": {
+          "same_predictions": 263,
+          "total": 288,
+          "ordinary_correct": 96
+        }
+      },
+      {
+        "model_id": "qwen25-vl-7b-lora-seed20260722",
+        "rotation_correct": [
+          99,
+          104,
+          115,
+          94
+        ],
+        "source_items": 288,
+        "rotation_items": 1152,
+        "circular_correct": 48,
+        "consistent_items": 97,
+        "vanilla": 34.375,
+        "mean_rotation": 35.76388888888889,
+        "circular": 16.666666666666664,
+        "consistency": 33.68055555555556,
+        "drop": 17.708333333333336,
+        "ordinary_vs_circular_r0": {
+          "same_predictions": 270,
+          "total": 288,
+          "ordinary_correct": 103
+        }
+      },
+      {
+        "model_id": "qwen25-vl-7b-lora-seed20260723",
+        "rotation_correct": [
+          100,
+          102,
+          112,
+          94
+        ],
+        "source_items": 288,
+        "rotation_items": 1152,
+        "circular_correct": 45,
+        "consistent_items": 95,
+        "vanilla": 34.72222222222222,
+        "mean_rotation": 35.41666666666667,
+        "circular": 15.625,
+        "consistency": 32.98611111111111,
+        "drop": 19.09722222222222,
+        "ordinary_vs_circular_r0": {
+          "same_predictions": 279,
+          "total": 288,
+          "ordinary_correct": 100
+        }
+      },
+      {
+        "model_id": "qwen25-vl-7b-lora-seed20260724",
+        "rotation_correct": [
+          105,
+          106,
+          114,
+          99
+        ],
+        "source_items": 288,
+        "rotation_items": 1152,
+        "circular_correct": 47,
+        "consistent_items": 90,
+        "vanilla": 36.45833333333333,
+        "mean_rotation": 36.80555555555556,
+        "circular": 16.319444444444446,
+        "consistency": 31.25,
+        "drop": 20.13888888888889,
+        "ordinary_vs_circular_r0": {
+          "same_predictions": 274,
+          "total": 288,
+          "ordinary_correct": 108
+        }
+      }
+    ],
+    "families": {
+      "qwen25-vl-7b": {
+        "vanilla": {
+          "mean": 35.18518518518518,
+          "sample_sd": 1.1161632825223302
+        },
+        "mean_rotation": {
+          "mean": 35.995370370370374,
+          "sample_sd": 0.7228006942590722
+        },
+        "circular": {
+          "mean": 16.203703703703702,
+          "sample_sd": 0.5303907054347029
+        },
+        "consistency": {
+          "mean": 32.638888888888886,
+          "sample_sd": 1.2519275262027743
+        },
+        "drop": {
+          "mean": 18.98148148148148,
+          "sample_sd": 1.21940436954314
+        }
+      },
+      "internvl3-8b": {
+        "vanilla": {
+          "mean": 32.754629629629626,
+          "sample_sd": 1.314562117083396
+        },
+        "mean_rotation": {
+          "mean": 30.931712962962962,
+          "sample_sd": 0.5779798713957803
+        },
+        "circular": {
+          "mean": 6.018518518518519,
+          "sample_sd": 1.1161632825223327
+        },
+        "consistency": {
+          "mean": 17.59259259259259,
+          "sample_sd": 1.5657117197301718
+        },
+        "drop": {
+          "mean": 26.73611111111111,
+          "sample_sd": 1.2028130608117196
+        }
+      }
+    }
+  },
+  "circular_incomplete_diagnostic": {
+    "models": [
+      {
+        "model_id": "qwen25-vl-7b-base-multiseed-control",
+        "rotation_correct": [
+          43,
+          54,
+          62,
+          57
+        ],
+        "source_items": 288,
+        "rotation_items": 1152,
+        "circular_correct": 6,
+        "consistent_items": 17,
+        "vanilla": 14.930555555555555,
+        "mean_rotation": 18.75,
+        "circular": 2.083333333333333,
+        "consistency": 5.902777777777778,
+        "drop": 12.847222222222221,
+        "ordinary_vs_circular_r0": {
+          "same_predictions": 179,
+          "total": 288,
+          "ordinary_correct": 84
+        }
+      }
+    ]
+  },
+  "author_confirmed_summary": {
+    "model_id": "qwen25-vl-7b-base-multiseed-control",
+    "evaluation_mode": "all-images",
+    "source_type": "author_confirmed_summary",
+    "author_confirmation_date": "2026-10-09",
+    "metric_values_percent_from_author_supplied_summary": {
+      "vanilla_accuracy": 14.93,
+      "mean_rotation_accuracy": 18.75,
+      "strict_circular_accuracy": 2.08,
+      "semantic_consistency": 5.9,
+      "circular_drop_percentage_points": 12.85
+    },
+    "author_confirms_completed_run": true,
+    "completed_run_independently_recomputed": false,
+    "located_prediction_copy": {
+      "records": 1152,
+      "valid": 706,
+      "call_error": 446,
+      "interpretation": "Does not verify the author-confirmed completed run. Original files and audit status are preserved."
+    },
+    "reporting_boundary": "Display the author-confirmed aggregate row, not a claim that all eight configurations were independently recomputed from complete local predictions. Do not infer new uncertainty or significance from this summary."
+  },
+  "primary_main": {
+    "models": [
+      {
+        "n": 288,
+        "correct": 83,
+        "accuracy": 0.2881944444444444,
+        "macro_precision": 0.3106020881849447,
+        "macro_recall": 0.2943299199820939,
+        "macro_f1": 0.25988757917029925,
+        "model_id": "qwen25-vl-7b-base",
+        "display_model": "Qwen2.5-VL-7B",
+        "setting": "Base",
+        "run_cohort": "primary_main",
+        "joint": {
+          "FQ1_GEM": [
+            0,
+            48
+          ],
+          "NTS": [
+            1,
+            48
+          ],
+          "DIS": [
+            21,
+            48
+          ]
+        },
+        "confusion": {
+          "A": {
+            "A": 6,
+            "B": 15,
+            "C": 40,
+            "D": 14,
+            "INVALID": 0
+          },
+          "B": {
+            "A": 4,
+            "B": 19,
+            "C": 30,
+            "D": 17,
+            "INVALID": 0
+          },
+          "C": {
+            "A": 2,
+            "B": 11,
+            "C": 43,
+            "D": 13,
+            "INVALID": 0
+          },
+          "D": {
+            "A": 4,
+            "B": 11,
+            "C": 44,
+            "D": 15,
+            "INVALID": 0
+          }
+        },
+        "table_main_display_percent": {
+          "macro_precision": "31.06",
+          "macro_recall": "29.43",
+          "macro_f1": "25.99",
+          "accuracy": "28.82",
+          "FQ1_GEM": "0.00",
+          "NTS": "2.08",
+          "DIS": "43.75"
+        },
+        "coverage": {
+          "records": 288,
+          "valid": 288,
+          "invalid": 0
+        }
+      },
+      {
+        "n": 288,
+        "correct": 85,
+        "accuracy": 0.2951388888888889,
+        "macro_precision": 0.2972100233581,
+        "macro_recall": 0.29838425381903644,
+        "macro_f1": 0.286454689492383,
+        "model_id": "internvl3-8b-base",
+        "display_model": "InternVL3-8B",
+        "setting": "Base",
+        "run_cohort": "primary_main",
+        "joint": {
+          "FQ1_GEM": [
+            1,
+            48
+          ],
+          "NTS": [
+            4,
+            48
+          ],
+          "DIS": [
+            10,
+            48
+          ]
+        },
+        "confusion": {
+          "A": {
+            "A": 15,
+            "B": 30,
+            "C": 11,
+            "D": 19,
+            "INVALID": 0
+          },
+          "B": {
+            "A": 8,
+            "B": 35,
+            "C": 11,
+            "D": 16,
+            "INVALID": 0
+          },
+          "C": {
+            "A": 9,
+            "B": 25,
+            "C": 21,
+            "D": 14,
+            "INVALID": 0
+          },
+          "D": {
+            "A": 11,
+            "B": 25,
+            "C": 24,
+            "D": 14,
+            "INVALID": 0
+          }
+        },
+        "table_main_display_percent": {
+          "macro_precision": "29.72",
+          "macro_recall": "29.84",
+          "macro_f1": "28.65",
+          "accuracy": "29.51",
+          "FQ1_GEM": "2.08",
+          "NTS": "8.33",
+          "DIS": "20.83"
+        },
+        "coverage": {
+          "records": 288,
+          "valid": 288,
+          "invalid": 0
+        }
+      },
+      {
+        "n": 288,
+        "correct": 98,
+        "accuracy": 0.3402777777777778,
+        "macro_precision": 0.3460255581105681,
+        "macro_recall": 0.3429676570980919,
+        "macro_f1": 0.33829262568937146,
+        "model_id": "qwen3-vl-8b-base",
+        "display_model": "Qwen3-VL-8B",
+        "setting": "Base",
+        "run_cohort": "primary_main",
+        "joint": {
+          "FQ1_GEM": [
+            0,
+            48
+          ],
+          "NTS": [
+            7,
+            48
+          ],
+          "DIS": [
+            19,
+            48
+          ]
+        },
+        "confusion": {
+          "A": {
+            "A": 20,
+            "B": 24,
+            "C": 15,
+            "D": 16,
+            "INVALID": 0
+          },
+          "B": {
+            "A": 10,
+            "B": 32,
+            "C": 9,
+            "D": 19,
+            "INVALID": 0
+          },
+          "C": {
+            "A": 11,
+            "B": 14,
+            "C": 27,
+            "D": 17,
+            "INVALID": 0
+          },
+          "D": {
+            "A": 8,
+            "B": 26,
+            "C": 21,
+            "D": 19,
+            "INVALID": 0
+          }
+        },
+        "table_main_display_percent": {
+          "macro_precision": "34.60",
+          "macro_recall": "34.30",
+          "macro_f1": "33.83",
+          "accuracy": "34.03",
+          "FQ1_GEM": "0.00",
+          "NTS": "14.58",
+          "DIS": "39.58"
+        },
+        "coverage": {
+          "records": 288,
+          "valid": 288,
+          "invalid": 0
+        }
+      },
+      {
+        "n": 288,
+        "correct": 84,
+        "accuracy": 0.2916666666666667,
+        "macro_precision": 0.3056405953193294,
+        "macro_recall": 0.29331654636002463,
+        "macro_f1": 0.29039880779476346,
+        "model_id": "llava-onevision-7b-base",
+        "display_model": "LLaVA-OneVision-7B",
+        "setting": "Base",
+        "run_cohort": "primary_main",
+        "joint": {
+          "FQ1_GEM": [
+            0,
+            48
+          ],
+          "NTS": [
+            0,
+            48
+          ],
+          "DIS": [
+            18,
+            48
+          ]
+        },
+        "confusion": {
+          "A": {
+            "A": 18,
+            "B": 11,
+            "C": 20,
+            "D": 23,
+            "INVALID": 3
+          },
+          "B": {
+            "A": 10,
+            "B": 13,
+            "C": 20,
+            "D": 25,
+            "INVALID": 2
+          },
+          "C": {
+            "A": 10,
+            "B": 7,
+            "C": 32,
+            "D": 17,
+            "INVALID": 3
+          },
+          "D": {
+            "A": 14,
+            "B": 12,
+            "C": 25,
+            "D": 21,
+            "INVALID": 2
+          }
+        },
+        "table_main_display_percent": {
+          "macro_precision": "30.56",
+          "macro_recall": "29.33",
+          "macro_f1": "29.04",
+          "accuracy": "29.17",
+          "FQ1_GEM": "0.00",
+          "NTS": "0.00",
+          "DIS": "37.50"
+        },
+        "coverage": {
+          "records": 288,
+          "valid": 278,
+          "invalid": 10
+        }
+      },
+      {
+        "n": 288,
+        "correct": 95,
+        "accuracy": 0.3298611111111111,
+        "macro_precision": 0.3347747527816364,
+        "macro_recall": 0.3333103911364781,
+        "macro_f1": 0.322654926595144,
+        "model_id": "minicpm-v-4_5-base",
+        "display_model": "MiniCPM-V 4.5",
+        "setting": "Base",
+        "run_cohort": "primary_main",
+        "joint": {
+          "FQ1_GEM": [
+            0,
+            48
+          ],
+          "NTS": [
+            2,
+            48
+          ],
+          "DIS": [
+            23,
+            48
+          ]
+        },
+        "confusion": {
+          "A": {
+            "A": 12,
+            "B": 12,
+            "C": 21,
+            "D": 30,
+            "INVALID": 0
+          },
+          "B": {
+            "A": 4,
+            "B": 25,
+            "C": 18,
+            "D": 23,
+            "INVALID": 0
+          },
+          "C": {
+            "A": 7,
+            "B": 13,
+            "C": 33,
+            "D": 16,
+            "INVALID": 0
+          },
+          "D": {
+            "A": 12,
+            "B": 18,
+            "C": 19,
+            "D": 25,
+            "INVALID": 0
+          }
+        },
+        "table_main_display_percent": {
+          "macro_precision": "33.48",
+          "macro_recall": "33.33",
+          "macro_f1": "32.27",
+          "accuracy": "32.99",
+          "FQ1_GEM": "0.00",
+          "NTS": "4.17",
+          "DIS": "47.92"
+        },
+        "coverage": {
+          "records": 288,
+          "valid": 288,
+          "invalid": 0
+        }
+      },
+      {
+        "n": 288,
+        "correct": 74,
+        "accuracy": 0.2569444444444444,
+        "macro_precision": 0.2698656292038645,
+        "macro_recall": 0.2596069050416877,
+        "macro_f1": 0.24815873564734983,
+        "model_id": "mistral-small-3_2-24b-base",
+        "display_model": "Mistral Small 3.2 24B",
+        "setting": "Base",
+        "run_cohort": "primary_main",
+        "joint": {
+          "FQ1_GEM": [
+            0,
+            48
+          ],
+          "NTS": [
+            1,
+            48
+          ],
+          "DIS": [
+            4,
+            48
+          ]
+        },
+        "confusion": {
+          "A": {
+            "A": 8,
+            "B": 30,
+            "C": 21,
+            "D": 16,
+            "INVALID": 0
+          },
+          "B": {
+            "A": 6,
+            "B": 25,
+            "C": 10,
+            "D": 29,
+            "INVALID": 0
+          },
+          "C": {
+            "A": 5,
+            "B": 23,
+            "C": 21,
+            "D": 20,
+            "INVALID": 0
+          },
+          "D": {
+            "A": 6,
+            "B": 26,
+            "C": 22,
+            "D": 20,
+            "INVALID": 0
+          }
+        },
+        "table_main_display_percent": {
+          "macro_precision": "26.99",
+          "macro_recall": "25.96",
+          "macro_f1": "24.82",
+          "accuracy": "25.69",
+          "FQ1_GEM": "0.00",
+          "NTS": "2.08",
+          "DIS": "8.33"
+        },
+        "coverage": {
+          "records": 288,
+          "valid": 288,
+          "invalid": 0
+        }
+      },
+      {
+        "n": 288,
+        "correct": 96,
+        "accuracy": 0.3333333333333333,
+        "macro_precision": 0.3328779464699822,
+        "macro_recall": 0.33562727323596886,
+        "macro_f1": 0.32153098486066234,
+        "model_id": "qwen25-vl-32b-base",
+        "display_model": "Qwen2.5-VL-32B",
+        "setting": "Base",
+        "run_cohort": "primary_main",
+        "joint": {
+          "FQ1_GEM": [
+            0,
+            48
+          ],
+          "NTS": [
+            3,
+            48
+          ],
+          "DIS": [
+            17,
+            48
+          ]
+        },
+        "confusion": {
+          "A": {
+            "A": 11,
+            "B": 11,
+            "C": 24,
+            "D": 29,
+            "INVALID": 0
+          },
+          "B": {
+            "A": 13,
+            "B": 18,
+            "C": 15,
+            "D": 24,
+            "INVALID": 0
+          },
+          "C": {
+            "A": 10,
+            "B": 4,
+            "C": 34,
+            "D": 21,
+            "INVALID": 0
+          },
+          "D": {
+            "A": 11,
+            "B": 11,
+            "C": 19,
+            "D": 33,
+            "INVALID": 0
+          }
+        },
+        "table_main_display_percent": {
+          "macro_precision": "33.29",
+          "macro_recall": "33.56",
+          "macro_f1": "32.15",
+          "accuracy": "33.33",
+          "FQ1_GEM": "0.00",
+          "NTS": "6.25",
+          "DIS": "35.42"
+        },
+        "coverage": {
+          "records": 288,
+          "valid": 288,
+          "invalid": 0
+        }
+      },
+      {
+        "n": 288,
+        "correct": 81,
+        "accuracy": 0.28125,
+        "macro_precision": 0.28138981944129005,
+        "macro_recall": 0.2834749034749035,
+        "macro_f1": 0.278649460101073,
+        "model_id": "internvl35-14b-base",
+        "display_model": "InternVL3.5-14B",
+        "setting": "Base",
+        "run_cohort": "primary_main",
+        "joint": {
+          "FQ1_GEM": [
+            0,
+            48
+          ],
+          "NTS": [
+            3,
+            48
+          ],
+          "DIS": [
+            12,
+            48
+          ]
+        },
+        "confusion": {
+          "A": {
+            "A": 14,
+            "B": 17,
+            "C": 19,
+            "D": 25,
+            "INVALID": 0
+          },
+          "B": {
+            "A": 13,
+            "B": 25,
+            "C": 19,
+            "D": 13,
+            "INVALID": 0
+          },
+          "C": {
+            "A": 8,
+            "B": 21,
+            "C": 23,
+            "D": 17,
+            "INVALID": 0
+          },
+          "D": {
+            "A": 14,
+            "B": 17,
+            "C": 24,
+            "D": 19,
+            "INVALID": 0
+          }
+        },
+        "table_main_display_percent": {
+          "macro_precision": "28.14",
+          "macro_recall": "28.35",
+          "macro_f1": "27.86",
+          "accuracy": "28.12",
+          "FQ1_GEM": "0.00",
+          "NTS": "6.25",
+          "DIS": "25.00"
+        },
+        "coverage": {
+          "records": 288,
+          "valid": 288,
+          "invalid": 0
+        }
+      },
+      {
+        "n": 288,
+        "correct": 76,
+        "accuracy": 0.2638888888888889,
+        "macro_precision": 0.26069319438273075,
+        "macro_recall": 0.26614039505343856,
+        "macro_f1": 0.2554432635100955,
+        "model_id": "phi4-multimodal-base",
+        "display_model": "Phi-4-Multimodal",
+        "setting": "Base",
+        "run_cohort": "primary_main",
+        "joint": {
+          "FQ1_GEM": [
+            0,
+            48
+          ],
+          "NTS": [
+            0,
+            48
+          ],
+          "DIS": [
+            17,
+            48
+          ]
+        },
+        "confusion": {
+          "A": {
+            "A": 21,
+            "B": 20,
+            "C": 25,
+            "D": 9,
+            "INVALID": 0
+          },
+          "B": {
+            "A": 24,
+            "B": 18,
+            "C": 18,
+            "D": 10,
+            "INVALID": 0
+          },
+          "C": {
+            "A": 20,
+            "B": 13,
+            "C": 28,
+            "D": 8,
+            "INVALID": 0
+          },
+          "D": {
+            "A": 22,
+            "B": 20,
+            "C": 23,
+            "D": 9,
+            "INVALID": 0
+          }
+        },
+        "table_main_display_percent": {
+          "macro_precision": "26.07",
+          "macro_recall": "26.61",
+          "macro_f1": "25.54",
+          "accuracy": "26.39",
+          "FQ1_GEM": "0.00",
+          "NTS": "0.00",
+          "DIS": "35.42"
+        },
+        "coverage": {
+          "records": 288,
+          "valid": 288,
+          "invalid": 0
+        }
+      },
+      {
+        "n": 288,
+        "correct": 84,
+        "accuracy": 0.2916666666666667,
+        "macro_precision": 0.3674239857233216,
+        "macro_recall": 0.2947736556432209,
+        "macro_f1": 0.26725494894547697,
+        "model_id": "kimi-vl-a3b-base",
+        "display_model": "Kimi-VL-A3B",
+        "setting": "Base",
+        "run_cohort": "primary_main",
+        "joint": {
+          "FQ1_GEM": [
+            0,
+            48
+          ],
+          "NTS": [
+            0,
+            48
+          ],
+          "DIS": [
+            19,
+            48
+          ]
+        },
+        "confusion": {
+          "A": {
+            "A": 5,
+            "B": 32,
+            "C": 17,
+            "D": 21,
+            "INVALID": 0
+          },
+          "B": {
+            "A": 2,
+            "B": 34,
+            "C": 16,
+            "D": 18,
+            "INVALID": 0
+          },
+          "C": {
+            "A": 0,
+            "B": 22,
+            "C": 19,
+            "D": 28,
+            "INVALID": 0
+          },
+          "D": {
+            "A": 1,
+            "B": 31,
+            "C": 16,
+            "D": 26,
+            "INVALID": 0
+          }
+        },
+        "table_main_display_percent": {
+          "macro_precision": "36.74",
+          "macro_recall": "29.48",
+          "macro_f1": "26.73",
+          "accuracy": "29.17",
+          "FQ1_GEM": "0.00",
+          "NTS": "0.00",
+          "DIS": "39.58"
+        },
+        "coverage": {
+          "records": 288,
+          "valid": 288,
+          "invalid": 0
+        }
+      },
+      {
+        "n": 288,
+        "correct": 102,
+        "accuracy": 0.3541666666666667,
+        "macro_precision": 0.3545035938903863,
+        "macro_recall": 0.35526271613228133,
+        "macro_f1": 0.3481482436802501,
+        "model_id": "qwen25-vl-7b-lora",
+        "display_model": "Qwen2.5-VL-7B",
+        "setting": "LoRA",
+        "run_cohort": "primary_main",
+        "joint": {
+          "FQ1_GEM": [
+            0,
+            48
+          ],
+          "NTS": [
+            6,
+            48
+          ],
+          "DIS": [
+            6,
+            48
+          ]
+        },
+        "confusion": {
+          "A": {
+            "A": 25,
+            "B": 25,
+            "C": 13,
+            "D": 12,
+            "INVALID": 0
+          },
+          "B": {
+            "A": 11,
+            "B": 37,
+            "C": 7,
+            "D": 15,
+            "INVALID": 0
+          },
+          "C": {
+            "A": 14,
+            "B": 24,
+            "C": 19,
+            "D": 12,
+            "INVALID": 0
+          },
+          "D": {
+            "A": 20,
+            "B": 19,
+            "C": 14,
+            "D": 21,
+            "INVALID": 0
+          }
+        },
+        "table_main_display_percent": {
+          "macro_precision": "35.45",
+          "macro_recall": "35.53",
+          "macro_f1": "34.81",
+          "accuracy": "35.42",
+          "FQ1_GEM": "0.00",
+          "NTS": "12.50",
+          "DIS": "12.50"
+        },
+        "coverage": {
+          "records": 288,
+          "valid": 288,
+          "invalid": 0
+        }
+      },
+      {
+        "n": 288,
+        "correct": 94,
+        "accuracy": 0.3263888888888889,
+        "macro_precision": 0.34354751641985687,
+        "macro_recall": 0.32912288064461975,
+        "macro_f1": 0.30989804070268223,
+        "model_id": "internvl3-8b-lora",
+        "display_model": "InternVL3-8B",
+        "setting": "LoRA",
+        "run_cohort": "primary_main",
+        "joint": {
+          "FQ1_GEM": [
+            0,
+            48
+          ],
+          "NTS": [
+            4,
+            48
+          ],
+          "DIS": [
+            4,
+            48
+          ]
+        },
+        "confusion": {
+          "A": {
+            "A": 19,
+            "B": 41,
+            "C": 9,
+            "D": 6,
+            "INVALID": 0
+          },
+          "B": {
+            "A": 8,
+            "B": 44,
+            "C": 8,
+            "D": 10,
+            "INVALID": 0
+          },
+          "C": {
+            "A": 10,
+            "B": 35,
+            "C": 16,
+            "D": 8,
+            "INVALID": 0
+          },
+          "D": {
+            "A": 17,
+            "B": 28,
+            "C": 14,
+            "D": 15,
+            "INVALID": 0
+          }
+        },
+        "table_main_display_percent": {
+          "macro_precision": "34.35",
+          "macro_recall": "32.91",
+          "macro_f1": "30.99",
+          "accuracy": "32.64",
+          "FQ1_GEM": "0.00",
+          "NTS": "8.33",
+          "DIS": "8.33"
+        },
+        "coverage": {
+          "records": 288,
+          "valid": 288,
+          "invalid": 0
+        }
+      },
+      {
+        "n": 288,
+        "correct": 117,
+        "accuracy": 0.40625,
+        "macro_precision": 0.4057009167303285,
+        "macro_recall": 0.407223434614739,
+        "macro_f1": 0.40433908197066093,
+        "model_id": "gpt-5.6-0shot",
+        "display_model": "GPT-5.6",
+        "setting": "0-shot",
+        "run_cohort": "primary_main",
+        "joint": {
+          "FQ1_GEM": [
+            2,
+            48
+          ],
+          "NTS": [
+            7,
+            48
+          ],
+          "DIS": [
+            17,
+            48
+          ]
+        },
+        "confusion": {
+          "A": {
+            "A": 32,
+            "B": 11,
+            "C": 20,
+            "D": 12,
+            "INVALID": 0
+          },
+          "B": {
+            "A": 17,
+            "B": 25,
+            "C": 14,
+            "D": 14,
+            "INVALID": 0
+          },
+          "C": {
+            "A": 10,
+            "B": 9,
+            "C": 35,
+            "D": 15,
+            "INVALID": 0
+          },
+          "D": {
+            "A": 18,
+            "B": 15,
+            "C": 16,
+            "D": 25,
+            "INVALID": 0
+          }
+        },
+        "table_main_display_percent": {
+          "macro_precision": "40.57",
+          "macro_recall": "40.72",
+          "macro_f1": "40.43",
+          "accuracy": "40.62",
+          "FQ1_GEM": "4.17",
+          "NTS": "14.58",
+          "DIS": "35.42"
+        },
+        "coverage": {
+          "records": 288,
+          "valid": 288,
+          "invalid": 0
+        }
+      },
+      {
+        "n": 288,
+        "correct": 127,
+        "accuracy": 0.4409722222222222,
+        "macro_precision": 0.44008275698416544,
+        "macro_recall": 0.4426355548094678,
+        "macro_f1": 0.4404643444211053,
+        "model_id": "gpt-5.6-1shot",
+        "display_model": "GPT-5.6",
+        "setting": "1-shot",
+        "run_cohort": "primary_main",
+        "joint": {
+          "FQ1_GEM": [
+            3,
+            48
+          ],
+          "NTS": [
+            8,
+            48
+          ],
+          "DIS": [
+            20,
+            48
+          ]
+        },
+        "confusion": {
+          "A": {
+            "A": 27,
+            "B": 18,
+            "C": 15,
+            "D": 15,
+            "INVALID": 0
+          },
+          "B": {
+            "A": 17,
+            "B": 31,
+            "C": 13,
+            "D": 9,
+            "INVALID": 0
+          },
+          "C": {
+            "A": 8,
+            "B": 11,
+            "C": 36,
+            "D": 14,
+            "INVALID": 0
+          },
+          "D": {
+            "A": 14,
+            "B": 14,
+            "C": 13,
+            "D": 33,
+            "INVALID": 0
+          }
+        },
+        "table_main_display_percent": {
+          "macro_precision": "44.01",
+          "macro_recall": "44.26",
+          "macro_f1": "44.05",
+          "accuracy": "44.10",
+          "FQ1_GEM": "6.25",
+          "NTS": "16.67",
+          "DIS": "41.67"
+        },
+        "coverage": {
+          "records": 288,
+          "valid": 288,
+          "invalid": 0
+        }
+      },
+      {
+        "n": 288,
+        "correct": 139,
+        "accuracy": 0.4826388888888889,
+        "macro_precision": 0.4852792648874161,
+        "macro_recall": 0.4828535056795926,
+        "macro_f1": 0.48337890703622,
+        "model_id": "gpt-5.6-2shot",
+        "display_model": "GPT-5.6",
+        "setting": "2-shot",
+        "run_cohort": "primary_main",
+        "joint": {
+          "FQ1_GEM": [
+            5,
+            48
+          ],
+          "NTS": [
+            11,
+            48
+          ],
+          "DIS": [
+            21,
+            48
+          ]
+        },
+        "confusion": {
+          "A": {
+            "A": 35,
+            "B": 8,
+            "C": 19,
+            "D": 13,
+            "INVALID": 0
+          },
+          "B": {
+            "A": 12,
+            "B": 35,
+            "C": 15,
+            "D": 8,
+            "INVALID": 0
+          },
+          "C": {
+            "A": 16,
+            "B": 10,
+            "C": 33,
+            "D": 10,
+            "INVALID": 0
+          },
+          "D": {
+            "A": 13,
+            "B": 15,
+            "C": 10,
+            "D": 36,
+            "INVALID": 0
+          }
+        },
+        "table_main_display_percent": {
+          "macro_precision": "48.53",
+          "macro_recall": "48.29",
+          "macro_f1": "48.34",
+          "accuracy": "48.26",
+          "FQ1_GEM": "10.42",
+          "NTS": "22.92",
+          "DIS": "43.75"
+        },
+        "coverage": {
+          "records": 288,
+          "valid": 288,
+          "invalid": 0
+        }
+      },
+      {
+        "n": 288,
+        "correct": 144,
+        "accuracy": 0.5,
+        "macro_precision": 0.4986830992176387,
+        "macro_recall": 0.5004988528901573,
+        "macro_f1": 0.49864616070041046,
+        "model_id": "gpt-5.6-3shot",
+        "display_model": "GPT-5.6",
+        "setting": "3-shot",
+        "run_cohort": "primary_main",
+        "joint": {
+          "FQ1_GEM": [
+            3,
+            48
+          ],
+          "NTS": [
+            10,
+            48
+          ],
+          "DIS": [
+            23,
+            48
+          ]
+        },
+        "confusion": {
+          "A": {
+            "A": 42,
+            "B": 13,
+            "C": 11,
+            "D": 9,
+            "INVALID": 0
+          },
+          "B": {
+            "A": 9,
+            "B": 38,
+            "C": 12,
+            "D": 11,
+            "INVALID": 0
+          },
+          "C": {
+            "A": 10,
+            "B": 9,
+            "C": 35,
+            "D": 15,
+            "INVALID": 0
+          },
+          "D": {
+            "A": 13,
+            "B": 14,
+            "C": 18,
+            "D": 29,
+            "INVALID": 0
+          }
+        },
+        "table_main_display_percent": {
+          "macro_precision": "49.87",
+          "macro_recall": "50.05",
+          "macro_f1": "49.86",
+          "accuracy": "50.00",
+          "FQ1_GEM": "6.25",
+          "NTS": "20.83",
+          "DIS": "47.92"
+        },
+        "coverage": {
+          "records": 288,
+          "valid": 288,
+          "invalid": 0
+        }
+      },
+      {
+        "n": 288,
+        "correct": 113,
+        "accuracy": 0.3923611111111111,
+        "macro_precision": 0.3934860906019156,
+        "macro_recall": 0.395273627664932,
+        "macro_f1": 0.391907503065958,
+        "model_id": "claude-fable-5.1-chat-0shot",
+        "display_model": "Claude Fable 5.1",
+        "setting": "0-shot",
+        "run_cohort": "primary_main",
+        "joint": {
+          "FQ1_GEM": [
+            0,
+            48
+          ],
+          "NTS": [
+            4,
+            48
+          ],
+          "DIS": [
+            20,
+            48
+          ]
+        },
+        "confusion": {
+          "A": {
+            "A": 23,
+            "B": 6,
+            "C": 22,
+            "D": 24,
+            "INVALID": 0
+          },
+          "B": {
+            "A": 15,
+            "B": 31,
+            "C": 17,
+            "D": 7,
+            "INVALID": 0
+          },
+          "C": {
+            "A": 12,
+            "B": 8,
+            "C": 35,
+            "D": 14,
+            "INVALID": 0
+          },
+          "D": {
+            "A": 16,
+            "B": 19,
+            "C": 15,
+            "D": 24,
+            "INVALID": 0
+          }
+        },
+        "table_main_display_percent": {
+          "macro_precision": "39.35",
+          "macro_recall": "39.53",
+          "macro_f1": "39.19",
+          "accuracy": "39.24",
+          "FQ1_GEM": "0.00",
+          "NTS": "8.33",
+          "DIS": "41.67"
+        },
+        "coverage": {
+          "records": 288,
+          "valid": 288,
+          "invalid": 0
+        }
+      },
+      {
+        "n": 288,
+        "correct": 116,
+        "accuracy": 0.4027777777777778,
+        "macro_precision": 0.4055257766893089,
+        "macro_recall": 0.4030009512618208,
+        "macro_f1": 0.4026473506638818,
+        "model_id": "claude-fable-5.1-chat-1shot",
+        "display_model": "Claude Fable 5.1",
+        "setting": "1-shot",
+        "run_cohort": "primary_main",
+        "joint": {
+          "FQ1_GEM": [
+            3,
+            48
+          ],
+          "NTS": [
+            1,
+            48
+          ],
+          "DIS": [
+            18,
+            48
+          ]
+        },
+        "confusion": {
+          "A": {
+            "A": 29,
+            "B": 10,
+            "C": 18,
+            "D": 18,
+            "INVALID": 0
+          },
+          "B": {
+            "A": 10,
+            "B": 25,
+            "C": 17,
+            "D": 18,
+            "INVALID": 0
+          },
+          "C": {
+            "A": 10,
+            "B": 10,
+            "C": 31,
+            "D": 18,
+            "INVALID": 0
+          },
+          "D": {
+            "A": 18,
+            "B": 15,
+            "C": 10,
+            "D": 31,
+            "INVALID": 0
+          }
+        },
+        "table_main_display_percent": {
+          "macro_precision": "40.55",
+          "macro_recall": "40.30",
+          "macro_f1": "40.26",
+          "accuracy": "40.28",
+          "FQ1_GEM": "6.25",
+          "NTS": "2.08",
+          "DIS": "37.50"
+        },
+        "coverage": {
+          "records": 288,
+          "valid": 288,
+          "invalid": 0
+        }
+      },
+      {
+        "n": 288,
+        "correct": 119,
+        "accuracy": 0.4131944444444444,
+        "macro_precision": 0.4133662229209629,
+        "macro_recall": 0.41579486318616754,
+        "macro_f1": 0.41267022124190744,
+        "model_id": "claude-fable-5.1-chat-2shot",
+        "display_model": "Claude Fable 5.1",
+        "setting": "2-shot",
+        "run_cohort": "primary_main",
+        "joint": {
+          "FQ1_GEM": [
+            3,
+            48
+          ],
+          "NTS": [
+            6,
+            48
+          ],
+          "DIS": [
+            18,
+            48
+          ]
+        },
+        "confusion": {
+          "A": {
+            "A": 26,
+            "B": 10,
+            "C": 21,
+            "D": 18,
+            "INVALID": 0
+          },
+          "B": {
+            "A": 15,
+            "B": 33,
+            "C": 15,
+            "D": 7,
+            "INVALID": 0
+          },
+          "C": {
+            "A": 7,
+            "B": 10,
+            "C": 35,
+            "D": 17,
+            "INVALID": 0
+          },
+          "D": {
+            "A": 19,
+            "B": 15,
+            "C": 15,
+            "D": 25,
+            "INVALID": 0
+          }
+        },
+        "table_main_display_percent": {
+          "macro_precision": "41.34",
+          "macro_recall": "41.58",
+          "macro_f1": "41.27",
+          "accuracy": "41.32",
+          "FQ1_GEM": "6.25",
+          "NTS": "12.50",
+          "DIS": "37.50"
+        },
+        "coverage": {
+          "records": 288,
+          "valid": 288,
+          "invalid": 0
+        }
+      },
+      {
+        "n": 288,
+        "correct": 120,
+        "accuracy": 0.4166666666666667,
+        "macro_precision": 0.4174916285984398,
+        "macro_recall": 0.417634435677914,
+        "macro_f1": 0.4164034432625431,
+        "model_id": "claude-fable-5.1-chat-3shot",
+        "display_model": "Claude Fable 5.1",
+        "setting": "3-shot",
+        "run_cohort": "primary_main",
+        "joint": {
+          "FQ1_GEM": [
+            1,
+            48
+          ],
+          "NTS": [
+            4,
+            48
+          ],
+          "DIS": [
+            19,
+            48
+          ]
+        },
+        "confusion": {
+          "A": {
+            "A": 31,
+            "B": 9,
+            "C": 18,
+            "D": 17,
+            "INVALID": 0
+          },
+          "B": {
+            "A": 15,
+            "B": 30,
+            "C": 16,
+            "D": 9,
+            "INVALID": 0
+          },
+          "C": {
+            "A": 9,
+            "B": 15,
+            "C": 32,
+            "D": 13,
+            "INVALID": 0
+          },
+          "D": {
+            "A": 13,
+            "B": 22,
+            "C": 12,
+            "D": 27,
+            "INVALID": 0
+          }
+        },
+        "table_main_display_percent": {
+          "macro_precision": "41.75",
+          "macro_recall": "41.76",
+          "macro_f1": "41.64",
+          "accuracy": "41.67",
+          "FQ1_GEM": "2.08",
+          "NTS": "8.33",
+          "DIS": "39.58"
+        },
+        "coverage": {
+          "records": 288,
+          "valid": 288,
+          "invalid": 0
+        }
+      }
+    ]
+  }
+}

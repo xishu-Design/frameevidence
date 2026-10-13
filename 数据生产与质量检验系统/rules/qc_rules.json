@@ -1,0 +1,9 @@
+{
+  "question_type": ["FQ1", "FQ2"],
+  "reference_frame": ["camera", "object_intrinsic", "world", "image_plane"],
+  "view_condition": ["all_views", "one_valid_mss", "remove_required_view", "hard_distractor_added"],
+  "quality_status": ["draft", "reviewed", "verified", "rejected"],
+  "review_decision": ["approve", "needs_revision", "reject", "verify"],
+  "review_issue_type": ["answer_error", "ambiguous_reference_frame", "insufficient_visual_evidence", "object_instance_error", "bridge_instance_error", "mss_error", "view_intervention_error", "text_leakage", "image_path_error", "low_confidence_anchor", "other"],
+  "low_confidence_sample_ids": []
+}

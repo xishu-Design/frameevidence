@@ -1,0 +1,204 @@
+{
+  "status": "PASS",
+  "protocol": "frozen_60_10_30_split_v1",
+  "frozen": true,
+  "publication_ready": true,
+  "freeze_decision": "split_freeze_decision.json",
+  "dataset": "dataset",
+  "annotations_sha256": "9fe3013fe5abe61257490f44111607f23db6a9171bfd29c917e18ddae28c4496",
+  "policy": "protocol/formal_release_scale_policy.json",
+  "policy_sha256": "564e9e48a071361c9c2f1ed7d538f9571f4f90cd665dbf3f6dc2796f16475b70",
+  "split_overrides": "protocol/formal_release_split_overrides.csv",
+  "split_overrides_sha256": "cecc51a94a8c25857605374a9a2b29c820fbb5e0327660c84feba5e34d2caeea",
+  "manifest": "splits/split_manifest.csv",
+  "manifest_sha256": "bc9afad049e3c6cbdc9b5328ea3c2bdb9be70f0ada784033c820ce80ee6a53d9",
+  "cluster_source": "exact_image_sha256_connected_components_fallback",
+  "cluster_warning": "The frozen split guarantees exact-image SHA-256 component disjointness. It cannot detect every visually related scene after viewpoint, crop, resize, or re-encoding; paper claims must stay within that boundary.",
+  "warning": null,
+  "diagnostics": {
+    "status": "PASS",
+    "group_counts": {
+      "train": 192,
+      "dev": 32,
+      "test": 96
+    },
+    "item_counts": {
+      "train": 576,
+      "dev": 96,
+      "test": 288
+    },
+    "task_group_counts": {
+      "train": {
+        "FQ1": 96,
+        "FQ2": 96
+      },
+      "dev": {
+        "FQ1": 16,
+        "FQ2": 16
+      },
+      "test": {
+        "FQ1": 48,
+        "FQ2": 48
+      }
+    },
+    "cluster_counts": {
+      "train": 66,
+      "dev": 10,
+      "test": 31
+    },
+    "clusters_total": 107,
+    "cluster_leakage_count": 0,
+    "seed": 20260722,
+    "search_attempts": 400,
+    "feasible_attempts": 400,
+    "balance_score": 9.213195900302816,
+    "local_balance_swaps": 12,
+    "cluster_overrides": {
+      "applied": true,
+      "count": 2,
+      "changes": [
+        {
+          "scene_cluster_id": "asset_component_0031",
+          "before": "train",
+          "after": "test",
+          "group_ids": [
+            "group_00178",
+            "group_00183",
+            "group_00318",
+            "group_00354"
+          ],
+          "reason": "matched_cluster_swap_for_asset_component_0032"
+        },
+        {
+          "scene_cluster_id": "asset_component_0032",
+          "before": "test",
+          "after": "train",
+          "group_ids": [
+            "group_00179",
+            "group_00184",
+            "group_00319",
+            "group_00355"
+          ],
+          "reason": "paper_task_illustration_group_00184"
+        }
+      ],
+      "validation": {
+        "status": "PASS",
+        "group_counts": {
+          "train": 192,
+          "dev": 32,
+          "test": 96
+        },
+        "item_counts": {
+          "train": 576,
+          "dev": 96,
+          "test": 288
+        },
+        "task_group_counts": {
+          "train": {
+            "FQ1": 96,
+            "FQ2": 96
+          },
+          "dev": {
+            "FQ1": 16,
+            "FQ2": 16
+          },
+          "test": {
+            "FQ1": 48,
+            "FQ2": 48
+          }
+        },
+        "cluster_counts": {
+          "train": 66,
+          "dev": 10,
+          "test": 31
+        },
+        "clusters_total": 107,
+        "cluster_leakage_count": 0
+      }
+    },
+    "feature_counts": {
+      "train": {
+        "answer:A": 142,
+        "answer:B": 146,
+        "answer:C": 146,
+        "answer:D": 142,
+        "fq1_image_count:2": 33,
+        "fq1_image_count:3": 32,
+        "fq1_image_count:4": 31,
+        "fq2_mss_count:2": 32,
+        "fq2_mss_count:3": 31,
+        "fq2_mss_count:4": 33,
+        "fq2_reference_frame:camera": 32,
+        "fq2_reference_frame:object_intrinsic": 32,
+        "fq2_reference_frame:world": 32,
+        "relation:FQ1:axial": 49,
+        "relation:FQ1:quadrant": 47,
+        "relation:FQ2:axial": 48,
+        "relation:FQ2:quadrant": 48,
+        "scene:FQ1:indoor_large_space": 32,
+        "scene:FQ1:indoor_tabletop": 33,
+        "scene:FQ1:outdoor_public_space": 31,
+        "scene:FQ2:indoor_large_space": 32,
+        "scene:FQ2:indoor_tabletop": 32,
+        "scene:FQ2:outdoor_public_space": 32,
+        "task:FQ1": 96,
+        "task:FQ2": 96
+      },
+      "dev": {
+        "answer:A": 23,
+        "answer:B": 24,
+        "answer:C": 25,
+        "answer:D": 24,
+        "fq1_image_count:2": 5,
+        "fq1_image_count:3": 6,
+        "fq1_image_count:4": 5,
+        "fq2_mss_count:2": 4,
+        "fq2_mss_count:3": 7,
+        "fq2_mss_count:4": 5,
+        "fq2_reference_frame:camera": 6,
+        "fq2_reference_frame:object_intrinsic": 5,
+        "fq2_reference_frame:world": 5,
+        "relation:FQ1:axial": 7,
+        "relation:FQ1:quadrant": 9,
+        "relation:FQ2:axial": 8,
+        "relation:FQ2:quadrant": 8,
+        "scene:FQ1:indoor_large_space": 6,
+        "scene:FQ1:indoor_tabletop": 4,
+        "scene:FQ1:outdoor_public_space": 6,
+        "scene:FQ2:indoor_large_space": 5,
+        "scene:FQ2:indoor_tabletop": 5,
+        "scene:FQ2:outdoor_public_space": 6,
+        "task:FQ1": 16,
+        "task:FQ2": 16
+      },
+      "test": {
+        "answer:A": 75,
+        "answer:B": 70,
+        "answer:C": 69,
+        "answer:D": 74,
+        "fq1_image_count:2": 15,
+        "fq1_image_count:3": 16,
+        "fq1_image_count:4": 17,
+        "fq2_mss_count:2": 17,
+        "fq2_mss_count:3": 16,
+        "fq2_mss_count:4": 15,
+        "fq2_reference_frame:camera": 16,
+        "fq2_reference_frame:object_intrinsic": 16,
+        "fq2_reference_frame:world": 16,
+        "relation:FQ1:axial": 24,
+        "relation:FQ1:quadrant": 24,
+        "relation:FQ2:axial": 24,
+        "relation:FQ2:quadrant": 24,
+        "scene:FQ1:indoor_large_space": 15,
+        "scene:FQ1:indoor_tabletop": 17,
+        "scene:FQ1:outdoor_public_space": 16,
+        "scene:FQ2:indoor_large_space": 16,
+        "scene:FQ2:indoor_tabletop": 17,
+        "scene:FQ2:outdoor_public_space": 15,
+        "task:FQ1": 48,
+        "task:FQ2": 48
+      }
+    }
+  }
+}

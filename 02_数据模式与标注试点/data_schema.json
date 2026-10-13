@@ -1,0 +1,106 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://frame-causalevidence.org/schema/unified-annotation-v3.0.0.json",
+  "title": "Frame-CausalEvidence 双题型统一标注样本 v3.0.0",
+  "description": "一行一个问题实例。FQ1 用同一 relation_group 的三道同图题测试参考系切换；FQ2 用同一 relation_group 的三个视图版本测试受控证据变换。开发与正式发布阶段的场景、关系和规模配额由外部 CSV 控制，不扩展题目层17字段。",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "sample_id", "relation_group_id", "images", "question_type",
+    "reference_frame", "reference_anchor", "target_instance_id",
+    "relatum_instance_id", "object_instances", "bridge_instance_ids",
+    "question", "options", "answer", "view_condition",
+    "removed_images", "mss_images", "quality_status"
+  ],
+  "$defs": {
+    "image_path": {
+      "type": "string",
+      "pattern": "^images/(?!.*(?:^|/)\\.\\.(?:/|$))[^\\\\]+\\.(jpg|jpeg|png|webp)$"
+    },
+    "image_array": {
+      "type": "array",
+      "maxItems": 8,
+      "uniqueItems": true,
+      "items": {"$ref": "#/$defs/image_path"}
+    }
+  },
+  "properties": {
+    "sample_id": {"type": "string", "pattern": "^fce_(pilot|dev|test)_[0-9]{5}$"},
+    "relation_group_id": {"type": "string", "pattern": "^group_[0-9]{5}$"},
+    "images": {"allOf": [{"$ref": "#/$defs/image_array"}, {"minItems": 1}]},
+    "question_type": {"type": "string", "enum": ["FQ1", "FQ2"]},
+    "reference_frame": {"type": "string", "enum": ["camera", "object_intrinsic", "world", "image_plane"]},
+    "reference_anchor": {"type": "string", "minLength": 2, "maxLength": 160},
+    "target_instance_id": {"type": "string", "pattern": "^obj_[0-9]{3}$"},
+    "relatum_instance_id": {"type": "string", "pattern": "^obj_[0-9]{3}$"},
+    "object_instances": {
+      "type": "object",
+      "minProperties": 2,
+      "maxProperties": 10,
+      "propertyNames": {"pattern": "^obj_[0-9]{3}$"},
+      "additionalProperties": {"type": "string", "minLength": 1, "maxLength": 80}
+    },
+    "bridge_instance_ids": {
+      "type": "array",
+      "maxItems": 8,
+      "uniqueItems": true,
+      "items": {"type": "string", "pattern": "^obj_[0-9]{3}$"}
+    },
+    "question": {"type": "string", "minLength": 10, "maxLength": 300},
+    "options": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["A", "B", "C", "D"],
+      "properties": {
+        "A": {"type": "string", "minLength": 1, "maxLength": 80},
+        "B": {"type": "string", "minLength": 1, "maxLength": 80},
+        "C": {"type": "string", "minLength": 1, "maxLength": 80},
+        "D": {"type": "string", "minLength": 1, "maxLength": 80}
+      }
+    },
+    "answer": {"type": "string", "enum": ["A", "B", "C", "D"]},
+    "view_condition": {"type": "string", "enum": ["all_views", "one_valid_mss", "remove_required_view", "hard_distractor_added"]},
+    "removed_images": {"$ref": "#/$defs/image_array"},
+    "mss_images": {"$ref": "#/$defs/image_array"},
+    "quality_status": {"type": "string", "enum": ["draft", "reviewed", "verified", "rejected"]}
+  },
+  "allOf": [
+    {
+      "if": {"properties": {"question_type": {"const": "FQ1"}}, "required": ["question_type"]},
+      "then": {
+        "properties": {
+          "images": {"minItems": 2},
+          "reference_frame": {"enum": ["camera", "object_intrinsic", "world"]},
+          "view_condition": {"const": "all_views"},
+          "removed_images": {"maxItems": 0},
+          "mss_images": {"minItems": 2}
+        }
+      }
+    },
+    {
+      "if": {"properties": {"question_type": {"const": "FQ2"}}, "required": ["question_type"]},
+      "then": {
+        "properties": {
+          "view_condition": {"enum": ["one_valid_mss", "remove_required_view", "hard_distractor_added"]},
+          "mss_images": {"minItems": 2}
+        }
+      }
+    },
+    {
+      "if": {"properties": {"view_condition": {"const": "all_views"}}, "required": ["view_condition"]},
+      "then": {"properties": {"question_type": {"const": "FQ1"}, "removed_images": {"maxItems": 0}}}
+    },
+    {
+      "if": {"properties": {"view_condition": {"const": "one_valid_mss"}}, "required": ["view_condition"]},
+      "then": {"properties": {"question_type": {"const": "FQ2"}, "images": {"minItems": 2}, "removed_images": {"maxItems": 0}}}
+    },
+    {
+      "if": {"properties": {"view_condition": {"const": "remove_required_view"}}, "required": ["view_condition"]},
+      "then": {"properties": {"question_type": {"const": "FQ2"}, "removed_images": {"minItems": 1}}}
+    },
+    {
+      "if": {"properties": {"view_condition": {"const": "hard_distractor_added"}}, "required": ["view_condition"]},
+      "then": {"properties": {"question_type": {"const": "FQ2"}, "images": {"minItems": 3}, "removed_images": {"maxItems": 0}}}
+    }
+  ]
+}

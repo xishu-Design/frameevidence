@@ -1,0 +1,704 @@
+[
+  {
+    "group_id": "group_00392",
+    "translation_status": "English translation for reading, not a model input",
+    "question_zh": "以图一镜头朝向为正前方，面对前方时右手侧为右方，烤箱位于椅子的哪一侧？",
+    "question_en": "Take the camera's viewing direction in Image 1 as forward, and the right-hand side when facing forward as right. On which side of the chair is the oven?",
+    "options_en": {
+      "A": "Front",
+      "B": "Right",
+      "C": "Behind",
+      "D": "Insufficient information"
+    },
+    "observation_en": "The released deletion removes S01. The first image delivered to the model is then S02, while the unchanged question still refers to Image 1.",
+    "options_zh": {
+      "A": "前方",
+      "B": "右方",
+      "C": "后方",
+      "D": "信息不足"
+    },
+    "published_triplet": [
+      {
+        "group_id": "group_00392",
+        "published_deletion_stratum": "anchor_removed",
+        "case_id": "eval_66a47a3d386a417f756b",
+        "source_eval_id": "eval_66a47a3d386a417f756b",
+        "source_sample_id": "fce_test_01174",
+        "condition": "one_valid_mss",
+        "kind": "published_case",
+        "question_zh": "以图一镜头朝向为正前方，面对前方时右手侧为右方，烤箱位于椅子的哪一侧？",
+        "options_zh": {
+          "A": "前方",
+          "B": "右方",
+          "C": "后方",
+          "D": "信息不足"
+        },
+        "original_model_prompt_zh": "请根据当前提供的信息回答下面的四选一问题。\n以图一镜头朝向为正前方，面对前方时右手侧为右方，烤箱位于椅子的哪一侧？\nA. 前方\nB. 右方\nC. 后方\nD. 信息不足\n只输出一个答案字母（A、B、C 或 D），不要解释。",
+        "released_answer_reference": "B",
+        "retained_system_prompt_zh": "你正在参加盲化四选一评测。只能输出 A、B、C 或 D，不要解释。",
+        "actual_image_sequence": [
+          {
+            "current_position": 1,
+            "stable_original_id": "S01",
+            "original_mss_position": 1,
+            "source_path": "images/group_00392/image_01.jpg",
+            "prepared_ref": "images/img_1f490d9831d77451c4e6.jpg"
+          },
+          {
+            "current_position": 2,
+            "stable_original_id": "S02",
+            "original_mss_position": 2,
+            "source_path": "images/group_00392/image_02.jpg",
+            "prepared_ref": "images/img_b02f91895348f6d85352.jpg"
+          },
+          {
+            "current_position": 3,
+            "stable_original_id": "S03",
+            "original_mss_position": 3,
+            "source_path": "images/group_00392/image_03.jpg",
+            "prepared_ref": "images/img_a03cbb53d76e7f9cb191.jpg"
+          },
+          {
+            "current_position": 4,
+            "stable_original_id": "S04",
+            "original_mss_position": 4,
+            "source_path": "images/group_00392/image_04.jpg",
+            "prepared_ref": "images/img_0892fa2961bcda58e62c.jpg"
+          }
+        ],
+        "removed_original_ids": [],
+        "added_original_ids": [],
+        "ordinal_trace": [
+          {
+            "literal_zh": "图一",
+            "ordinal": 1,
+            "original_anchor_id": "S01",
+            "current_positional_target_id": "S01",
+            "original_anchor_retained": true,
+            "positional_status": "same_image"
+          }
+        ],
+        "stable_ids_present_in_original_prompt": false,
+        "new_adjudicated_answer": null,
+        "semantic_validation_performed": false
+      },
+      {
+        "group_id": "group_00392",
+        "published_deletion_stratum": "anchor_removed",
+        "case_id": "eval_0e80f0b7d1435f93e33c",
+        "source_eval_id": "eval_0e80f0b7d1435f93e33c",
+        "source_sample_id": "fce_test_01175",
+        "condition": "remove_required_view",
+        "kind": "published_case",
+        "question_zh": "以图一镜头朝向为正前方，面对前方时右手侧为右方，烤箱位于椅子的哪一侧？",
+        "options_zh": {
+          "A": "前方",
+          "B": "右方",
+          "C": "后方",
+          "D": "信息不足"
+        },
+        "original_model_prompt_zh": "请根据当前提供的信息回答下面的四选一问题。\n以图一镜头朝向为正前方，面对前方时右手侧为右方，烤箱位于椅子的哪一侧？\nA. 前方\nB. 右方\nC. 后方\nD. 信息不足\n只输出一个答案字母（A、B、C 或 D），不要解释。",
+        "released_answer_reference": "D",
+        "retained_system_prompt_zh": "你正在参加盲化四选一评测。只能输出 A、B、C 或 D，不要解释。",
+        "actual_image_sequence": [
+          {
+            "current_position": 1,
+            "stable_original_id": "S02",
+            "original_mss_position": 2,
+            "source_path": "images/group_00392/image_02.jpg",
+            "prepared_ref": "images/img_b02f91895348f6d85352.jpg"
+          },
+          {
+            "current_position": 2,
+            "stable_original_id": "S03",
+            "original_mss_position": 3,
+            "source_path": "images/group_00392/image_03.jpg",
+            "prepared_ref": "images/img_a03cbb53d76e7f9cb191.jpg"
+          },
+          {
+            "current_position": 3,
+            "stable_original_id": "S04",
+            "original_mss_position": 4,
+            "source_path": "images/group_00392/image_04.jpg",
+            "prepared_ref": "images/img_0892fa2961bcda58e62c.jpg"
+          }
+        ],
+        "removed_original_ids": [
+          "S01"
+        ],
+        "added_original_ids": [],
+        "ordinal_trace": [
+          {
+            "literal_zh": "图一",
+            "ordinal": 1,
+            "original_anchor_id": "S01",
+            "current_positional_target_id": "S02",
+            "original_anchor_retained": false,
+            "positional_status": "different_image"
+          }
+        ],
+        "stable_ids_present_in_original_prompt": false,
+        "new_adjudicated_answer": null,
+        "semantic_validation_performed": false
+      },
+      {
+        "group_id": "group_00392",
+        "published_deletion_stratum": "anchor_removed",
+        "case_id": "eval_ff163e49f2f95d06abcb",
+        "source_eval_id": "eval_ff163e49f2f95d06abcb",
+        "source_sample_id": "fce_test_01176",
+        "condition": "hard_distractor_added",
+        "kind": "published_case",
+        "question_zh": "以图一镜头朝向为正前方，面对前方时右手侧为右方，烤箱位于椅子的哪一侧？",
+        "options_zh": {
+          "A": "前方",
+          "B": "右方",
+          "C": "后方",
+          "D": "信息不足"
+        },
+        "original_model_prompt_zh": "请根据当前提供的信息回答下面的四选一问题。\n以图一镜头朝向为正前方，面对前方时右手侧为右方，烤箱位于椅子的哪一侧？\nA. 前方\nB. 右方\nC. 后方\nD. 信息不足\n只输出一个答案字母（A、B、C 或 D），不要解释。",
+        "released_answer_reference": "B",
+        "retained_system_prompt_zh": "你正在参加盲化四选一评测。只能输出 A、B、C 或 D，不要解释。",
+        "actual_image_sequence": [
+          {
+            "current_position": 1,
+            "stable_original_id": "S01",
+            "original_mss_position": 1,
+            "source_path": "images/group_00392/image_01.jpg",
+            "prepared_ref": "images/img_1f490d9831d77451c4e6.jpg"
+          },
+          {
+            "current_position": 2,
+            "stable_original_id": "S02",
+            "original_mss_position": 2,
+            "source_path": "images/group_00392/image_02.jpg",
+            "prepared_ref": "images/img_b02f91895348f6d85352.jpg"
+          },
+          {
+            "current_position": 3,
+            "stable_original_id": "S03",
+            "original_mss_position": 3,
+            "source_path": "images/group_00392/image_03.jpg",
+            "prepared_ref": "images/img_a03cbb53d76e7f9cb191.jpg"
+          },
+          {
+            "current_position": 4,
+            "stable_original_id": "S04",
+            "original_mss_position": 4,
+            "source_path": "images/group_00392/image_04.jpg",
+            "prepared_ref": "images/img_0892fa2961bcda58e62c.jpg"
+          },
+          {
+            "current_position": 5,
+            "stable_original_id": "S05",
+            "original_mss_position": null,
+            "source_path": "images/group_00392/image_05.jpg",
+            "prepared_ref": "images/img_c30fd6a66540bf077490.jpg"
+          }
+        ],
+        "removed_original_ids": [],
+        "added_original_ids": [
+          "S05"
+        ],
+        "ordinal_trace": [
+          {
+            "literal_zh": "图一",
+            "ordinal": 1,
+            "original_anchor_id": "S01",
+            "current_positional_target_id": "S01",
+            "original_anchor_retained": true,
+            "positional_status": "same_image"
+          }
+        ],
+        "stable_ids_present_in_original_prompt": false,
+        "new_adjudicated_answer": null,
+        "semantic_validation_performed": false
+      }
+    ],
+    "system_prompt_zh": "你正在参加盲化四选一评测。只能输出 A、B、C 或 D，不要解释。",
+    "system_prompt_en": "You are participating in a blinded four-choice evaluation. Output only A, B, C, or D, without explanation.",
+    "user_prompt_en": "Answer the following four-choice question using the information currently provided.\nTake the camera's viewing direction in Image 1 as forward, and the right-hand side when facing forward as right. On which side of the chair is the oven?\nA. Front\nB. Right\nC. Behind\nD. Insufficient information\nOutput only one answer letter (A, B, C, or D), without explanation.",
+    "image_registry": [
+      {
+        "group_id": "group_00392",
+        "stable_id": "S01",
+        "source_path": "images/group_00392/image_01.jpg",
+        "prepared_ref": "images/img_1f490d9831d77451c4e6.jpg"
+      },
+      {
+        "group_id": "group_00392",
+        "stable_id": "S02",
+        "source_path": "images/group_00392/image_02.jpg",
+        "prepared_ref": "images/img_b02f91895348f6d85352.jpg"
+      },
+      {
+        "group_id": "group_00392",
+        "stable_id": "S03",
+        "source_path": "images/group_00392/image_03.jpg",
+        "prepared_ref": "images/img_a03cbb53d76e7f9cb191.jpg"
+      },
+      {
+        "group_id": "group_00392",
+        "stable_id": "S04",
+        "source_path": "images/group_00392/image_04.jpg",
+        "prepared_ref": "images/img_0892fa2961bcda58e62c.jpg"
+      },
+      {
+        "group_id": "group_00392",
+        "stable_id": "S05",
+        "source_path": "images/group_00392/image_05.jpg",
+        "prepared_ref": "images/img_c30fd6a66540bf077490.jpg"
+      }
+    ]
+  },
+  {
+    "group_id": "group_00368",
+    "translation_status": "English translation for reading, not a model input",
+    "question_zh": "以图二镜头朝向为正前方，面对前方时右手侧为右方，盆栽位于桌子的哪一侧？",
+    "question_en": "Take the camera's viewing direction in Image 2 as forward, and the right-hand side when facing forward as right. On which side of the table is the potted plant?",
+    "options_en": {
+      "A": "Back-right",
+      "B": "Front-right",
+      "C": "Insufficient information",
+      "D": "Back-left"
+    },
+    "observation_en": "The released deletion removes S01 and retains the original anchor S02 in the first position. The second image delivered to the model is now S03, while the question still refers to Image 2.",
+    "options_zh": {
+      "A": "右后方",
+      "B": "右前方",
+      "C": "信息不足",
+      "D": "左后方"
+    },
+    "published_triplet": [
+      {
+        "group_id": "group_00368",
+        "published_deletion_stratum": "anchor_retained_shifted",
+        "case_id": "eval_334ba1803f37e4a7049a",
+        "source_eval_id": "eval_334ba1803f37e4a7049a",
+        "source_sample_id": "fce_test_01102",
+        "condition": "one_valid_mss",
+        "kind": "published_case",
+        "question_zh": "以图二镜头朝向为正前方，面对前方时右手侧为右方，盆栽位于桌子的哪一侧？",
+        "options_zh": {
+          "A": "右后方",
+          "B": "右前方",
+          "C": "信息不足",
+          "D": "左后方"
+        },
+        "original_model_prompt_zh": "请根据当前提供的信息回答下面的四选一问题。\n以图二镜头朝向为正前方，面对前方时右手侧为右方，盆栽位于桌子的哪一侧？\nA. 右后方\nB. 右前方\nC. 信息不足\nD. 左后方\n只输出一个答案字母（A、B、C 或 D），不要解释。",
+        "released_answer_reference": "A",
+        "retained_system_prompt_zh": "你正在参加盲化四选一评测。只能输出 A、B、C 或 D，不要解释。",
+        "actual_image_sequence": [
+          {
+            "current_position": 1,
+            "stable_original_id": "S01",
+            "original_mss_position": 1,
+            "source_path": "images/group_00368/image_01.jpg",
+            "prepared_ref": "images/img_a7ad4fe772bb0df121dc.jpg"
+          },
+          {
+            "current_position": 2,
+            "stable_original_id": "S02",
+            "original_mss_position": 2,
+            "source_path": "images/group_00368/image_02.jpg",
+            "prepared_ref": "images/img_2f62cc712854ffe1ba6e.jpg"
+          },
+          {
+            "current_position": 3,
+            "stable_original_id": "S03",
+            "original_mss_position": 3,
+            "source_path": "images/group_00368/image_03.jpg",
+            "prepared_ref": "images/img_2e5c43b85d4c54c3ba09.jpg"
+          }
+        ],
+        "removed_original_ids": [],
+        "added_original_ids": [],
+        "ordinal_trace": [
+          {
+            "literal_zh": "图二",
+            "ordinal": 2,
+            "original_anchor_id": "S02",
+            "current_positional_target_id": "S02",
+            "original_anchor_retained": true,
+            "positional_status": "same_image"
+          }
+        ],
+        "stable_ids_present_in_original_prompt": false,
+        "new_adjudicated_answer": null,
+        "semantic_validation_performed": false
+      },
+      {
+        "group_id": "group_00368",
+        "published_deletion_stratum": "anchor_retained_shifted",
+        "case_id": "eval_c71257d77787e13e2f51",
+        "source_eval_id": "eval_c71257d77787e13e2f51",
+        "source_sample_id": "fce_test_01103",
+        "condition": "remove_required_view",
+        "kind": "published_case",
+        "question_zh": "以图二镜头朝向为正前方，面对前方时右手侧为右方，盆栽位于桌子的哪一侧？",
+        "options_zh": {
+          "A": "右后方",
+          "B": "右前方",
+          "C": "信息不足",
+          "D": "左后方"
+        },
+        "original_model_prompt_zh": "请根据当前提供的信息回答下面的四选一问题。\n以图二镜头朝向为正前方，面对前方时右手侧为右方，盆栽位于桌子的哪一侧？\nA. 右后方\nB. 右前方\nC. 信息不足\nD. 左后方\n只输出一个答案字母（A、B、C 或 D），不要解释。",
+        "released_answer_reference": "C",
+        "retained_system_prompt_zh": "你正在参加盲化四选一评测。只能输出 A、B、C 或 D，不要解释。",
+        "actual_image_sequence": [
+          {
+            "current_position": 1,
+            "stable_original_id": "S02",
+            "original_mss_position": 2,
+            "source_path": "images/group_00368/image_02.jpg",
+            "prepared_ref": "images/img_2f62cc712854ffe1ba6e.jpg"
+          },
+          {
+            "current_position": 2,
+            "stable_original_id": "S03",
+            "original_mss_position": 3,
+            "source_path": "images/group_00368/image_03.jpg",
+            "prepared_ref": "images/img_2e5c43b85d4c54c3ba09.jpg"
+          }
+        ],
+        "removed_original_ids": [
+          "S01"
+        ],
+        "added_original_ids": [],
+        "ordinal_trace": [
+          {
+            "literal_zh": "图二",
+            "ordinal": 2,
+            "original_anchor_id": "S02",
+            "current_positional_target_id": "S03",
+            "original_anchor_retained": true,
+            "positional_status": "different_image"
+          }
+        ],
+        "stable_ids_present_in_original_prompt": false,
+        "new_adjudicated_answer": null,
+        "semantic_validation_performed": false
+      },
+      {
+        "group_id": "group_00368",
+        "published_deletion_stratum": "anchor_retained_shifted",
+        "case_id": "eval_1c1204ac4a7318c55f34",
+        "source_eval_id": "eval_1c1204ac4a7318c55f34",
+        "source_sample_id": "fce_test_01104",
+        "condition": "hard_distractor_added",
+        "kind": "published_case",
+        "question_zh": "以图二镜头朝向为正前方，面对前方时右手侧为右方，盆栽位于桌子的哪一侧？",
+        "options_zh": {
+          "A": "右后方",
+          "B": "右前方",
+          "C": "信息不足",
+          "D": "左后方"
+        },
+        "original_model_prompt_zh": "请根据当前提供的信息回答下面的四选一问题。\n以图二镜头朝向为正前方，面对前方时右手侧为右方，盆栽位于桌子的哪一侧？\nA. 右后方\nB. 右前方\nC. 信息不足\nD. 左后方\n只输出一个答案字母（A、B、C 或 D），不要解释。",
+        "released_answer_reference": "A",
+        "retained_system_prompt_zh": "你正在参加盲化四选一评测。只能输出 A、B、C 或 D，不要解释。",
+        "actual_image_sequence": [
+          {
+            "current_position": 1,
+            "stable_original_id": "S01",
+            "original_mss_position": 1,
+            "source_path": "images/group_00368/image_01.jpg",
+            "prepared_ref": "images/img_a7ad4fe772bb0df121dc.jpg"
+          },
+          {
+            "current_position": 2,
+            "stable_original_id": "S02",
+            "original_mss_position": 2,
+            "source_path": "images/group_00368/image_02.jpg",
+            "prepared_ref": "images/img_2f62cc712854ffe1ba6e.jpg"
+          },
+          {
+            "current_position": 3,
+            "stable_original_id": "S03",
+            "original_mss_position": 3,
+            "source_path": "images/group_00368/image_03.jpg",
+            "prepared_ref": "images/img_2e5c43b85d4c54c3ba09.jpg"
+          },
+          {
+            "current_position": 4,
+            "stable_original_id": "S04",
+            "original_mss_position": null,
+            "source_path": "images/group_00368/image_04.jpg",
+            "prepared_ref": "images/img_5bb470655f154143c21c.jpg"
+          }
+        ],
+        "removed_original_ids": [],
+        "added_original_ids": [
+          "S04"
+        ],
+        "ordinal_trace": [
+          {
+            "literal_zh": "图二",
+            "ordinal": 2,
+            "original_anchor_id": "S02",
+            "current_positional_target_id": "S02",
+            "original_anchor_retained": true,
+            "positional_status": "same_image"
+          }
+        ],
+        "stable_ids_present_in_original_prompt": false,
+        "new_adjudicated_answer": null,
+        "semantic_validation_performed": false
+      }
+    ],
+    "system_prompt_zh": "你正在参加盲化四选一评测。只能输出 A、B、C 或 D，不要解释。",
+    "system_prompt_en": "You are participating in a blinded four-choice evaluation. Output only A, B, C, or D, without explanation.",
+    "user_prompt_en": "Answer the following four-choice question using the information currently provided.\nTake the camera's viewing direction in Image 2 as forward, and the right-hand side when facing forward as right. On which side of the table is the potted plant?\nA. Back-right\nB. Front-right\nC. Insufficient information\nD. Back-left\nOutput only one answer letter (A, B, C, or D), without explanation.",
+    "image_registry": [
+      {
+        "group_id": "group_00368",
+        "stable_id": "S01",
+        "source_path": "images/group_00368/image_01.jpg",
+        "prepared_ref": "images/img_a7ad4fe772bb0df121dc.jpg"
+      },
+      {
+        "group_id": "group_00368",
+        "stable_id": "S02",
+        "source_path": "images/group_00368/image_02.jpg",
+        "prepared_ref": "images/img_2f62cc712854ffe1ba6e.jpg"
+      },
+      {
+        "group_id": "group_00368",
+        "stable_id": "S03",
+        "source_path": "images/group_00368/image_03.jpg",
+        "prepared_ref": "images/img_2e5c43b85d4c54c3ba09.jpg"
+      },
+      {
+        "group_id": "group_00368",
+        "stable_id": "S04",
+        "source_path": "images/group_00368/image_04.jpg",
+        "prepared_ref": "images/img_5bb470655f154143c21c.jpg"
+      }
+    ]
+  },
+  {
+    "group_id": "group_00311",
+    "translation_status": "English translation for reading, not a model input",
+    "question_zh": "以图二镜头朝向为正前方，面对前方时右手侧为右方,游戏手柄位于矿泉水瓶的那一侧？",
+    "question_en": "Take the camera's viewing direction in Image 2 as forward, and the right-hand side when facing forward as right. On which side of the bottled water is the game controller?",
+    "options_en": {
+      "A": "Back-left",
+      "B": "Insufficient information",
+      "C": "Back-right",
+      "D": "Front-left"
+    },
+    "observation_en": "The released deletion removes S03. The original anchor S02 remains in the second position, so the explicit ordinal continues to identify the same image.",
+    "options_zh": {
+      "A": "左后方",
+      "B": "信息不足",
+      "C": "右后方",
+      "D": "左前方"
+    },
+    "published_triplet": [
+      {
+        "group_id": "group_00311",
+        "published_deletion_stratum": "ordinal_stable",
+        "case_id": "eval_fef696a72a589773c458",
+        "source_eval_id": "eval_fef696a72a589773c458",
+        "source_sample_id": "fce_test_00931",
+        "condition": "one_valid_mss",
+        "kind": "published_case",
+        "question_zh": "以图二镜头朝向为正前方，面对前方时右手侧为右方,游戏手柄位于矿泉水瓶的那一侧？",
+        "options_zh": {
+          "A": "左后方",
+          "B": "信息不足",
+          "C": "右后方",
+          "D": "左前方"
+        },
+        "original_model_prompt_zh": "请根据当前提供的信息回答下面的四选一问题。\n以图二镜头朝向为正前方，面对前方时右手侧为右方,游戏手柄位于矿泉水瓶的那一侧？\nA. 左后方\nB. 信息不足\nC. 右后方\nD. 左前方\n只输出一个答案字母（A、B、C 或 D），不要解释。",
+        "released_answer_reference": "D",
+        "retained_system_prompt_zh": "你正在参加盲化四选一评测。只能输出 A、B、C 或 D，不要解释。",
+        "actual_image_sequence": [
+          {
+            "current_position": 1,
+            "stable_original_id": "S01",
+            "original_mss_position": 1,
+            "source_path": "images/group_00311/image_01.jpg",
+            "prepared_ref": "images/img_5b4036e494fa5dfbf9a9.jpg"
+          },
+          {
+            "current_position": 2,
+            "stable_original_id": "S02",
+            "original_mss_position": 2,
+            "source_path": "images/group_00311/image_02.jpg",
+            "prepared_ref": "images/img_ad20521e50dc58870114.jpg"
+          },
+          {
+            "current_position": 3,
+            "stable_original_id": "S03",
+            "original_mss_position": 3,
+            "source_path": "images/group_00311/image_03.jpg",
+            "prepared_ref": "images/img_9501bef3f19b8e39bdf4.jpg"
+          }
+        ],
+        "removed_original_ids": [],
+        "added_original_ids": [],
+        "ordinal_trace": [
+          {
+            "literal_zh": "图二",
+            "ordinal": 2,
+            "original_anchor_id": "S02",
+            "current_positional_target_id": "S02",
+            "original_anchor_retained": true,
+            "positional_status": "same_image"
+          }
+        ],
+        "stable_ids_present_in_original_prompt": false,
+        "new_adjudicated_answer": null,
+        "semantic_validation_performed": false
+      },
+      {
+        "group_id": "group_00311",
+        "published_deletion_stratum": "ordinal_stable",
+        "case_id": "eval_0c3d2aceceba3de427b1",
+        "source_eval_id": "eval_0c3d2aceceba3de427b1",
+        "source_sample_id": "fce_test_00932",
+        "condition": "remove_required_view",
+        "kind": "published_case",
+        "question_zh": "以图二镜头朝向为正前方，面对前方时右手侧为右方,游戏手柄位于矿泉水瓶的那一侧？",
+        "options_zh": {
+          "A": "左后方",
+          "B": "信息不足",
+          "C": "右后方",
+          "D": "左前方"
+        },
+        "original_model_prompt_zh": "请根据当前提供的信息回答下面的四选一问题。\n以图二镜头朝向为正前方，面对前方时右手侧为右方,游戏手柄位于矿泉水瓶的那一侧？\nA. 左后方\nB. 信息不足\nC. 右后方\nD. 左前方\n只输出一个答案字母（A、B、C 或 D），不要解释。",
+        "released_answer_reference": "B",
+        "retained_system_prompt_zh": "你正在参加盲化四选一评测。只能输出 A、B、C 或 D，不要解释。",
+        "actual_image_sequence": [
+          {
+            "current_position": 1,
+            "stable_original_id": "S01",
+            "original_mss_position": 1,
+            "source_path": "images/group_00311/image_01.jpg",
+            "prepared_ref": "images/img_5b4036e494fa5dfbf9a9.jpg"
+          },
+          {
+            "current_position": 2,
+            "stable_original_id": "S02",
+            "original_mss_position": 2,
+            "source_path": "images/group_00311/image_02.jpg",
+            "prepared_ref": "images/img_ad20521e50dc58870114.jpg"
+          }
+        ],
+        "removed_original_ids": [
+          "S03"
+        ],
+        "added_original_ids": [],
+        "ordinal_trace": [
+          {
+            "literal_zh": "图二",
+            "ordinal": 2,
+            "original_anchor_id": "S02",
+            "current_positional_target_id": "S02",
+            "original_anchor_retained": true,
+            "positional_status": "same_image"
+          }
+        ],
+        "stable_ids_present_in_original_prompt": false,
+        "new_adjudicated_answer": null,
+        "semantic_validation_performed": false
+      },
+      {
+        "group_id": "group_00311",
+        "published_deletion_stratum": "ordinal_stable",
+        "case_id": "eval_ad8997866e998c52c0af",
+        "source_eval_id": "eval_ad8997866e998c52c0af",
+        "source_sample_id": "fce_test_00933",
+        "condition": "hard_distractor_added",
+        "kind": "published_case",
+        "question_zh": "以图二镜头朝向为正前方，面对前方时右手侧为右方,游戏手柄位于矿泉水瓶的那一侧？",
+        "options_zh": {
+          "A": "左后方",
+          "B": "信息不足",
+          "C": "右后方",
+          "D": "左前方"
+        },
+        "original_model_prompt_zh": "请根据当前提供的信息回答下面的四选一问题。\n以图二镜头朝向为正前方，面对前方时右手侧为右方,游戏手柄位于矿泉水瓶的那一侧？\nA. 左后方\nB. 信息不足\nC. 右后方\nD. 左前方\n只输出一个答案字母（A、B、C 或 D），不要解释。",
+        "released_answer_reference": "D",
+        "retained_system_prompt_zh": "你正在参加盲化四选一评测。只能输出 A、B、C 或 D，不要解释。",
+        "actual_image_sequence": [
+          {
+            "current_position": 1,
+            "stable_original_id": "S01",
+            "original_mss_position": 1,
+            "source_path": "images/group_00311/image_01.jpg",
+            "prepared_ref": "images/img_5b4036e494fa5dfbf9a9.jpg"
+          },
+          {
+            "current_position": 2,
+            "stable_original_id": "S02",
+            "original_mss_position": 2,
+            "source_path": "images/group_00311/image_02.jpg",
+            "prepared_ref": "images/img_ad20521e50dc58870114.jpg"
+          },
+          {
+            "current_position": 3,
+            "stable_original_id": "S03",
+            "original_mss_position": 3,
+            "source_path": "images/group_00311/image_03.jpg",
+            "prepared_ref": "images/img_9501bef3f19b8e39bdf4.jpg"
+          },
+          {
+            "current_position": 4,
+            "stable_original_id": "S04",
+            "original_mss_position": null,
+            "source_path": "images/group_00311/image_04.jpg",
+            "prepared_ref": "images/img_0f173e95f79d1a5c835b.jpg"
+          }
+        ],
+        "removed_original_ids": [],
+        "added_original_ids": [
+          "S04"
+        ],
+        "ordinal_trace": [
+          {
+            "literal_zh": "图二",
+            "ordinal": 2,
+            "original_anchor_id": "S02",
+            "current_positional_target_id": "S02",
+            "original_anchor_retained": true,
+            "positional_status": "same_image"
+          }
+        ],
+        "stable_ids_present_in_original_prompt": false,
+        "new_adjudicated_answer": null,
+        "semantic_validation_performed": false
+      }
+    ],
+    "system_prompt_zh": "你正在参加盲化四选一评测。只能输出 A、B、C 或 D，不要解释。",
+    "system_prompt_en": "You are participating in a blinded four-choice evaluation. Output only A, B, C, or D, without explanation.",
+    "user_prompt_en": "Answer the following four-choice question using the information currently provided.\nTake the camera's viewing direction in Image 2 as forward, and the right-hand side when facing forward as right. On which side of the bottled water is the game controller?\nA. Back-left\nB. Insufficient information\nC. Back-right\nD. Front-left\nOutput only one answer letter (A, B, C, or D), without explanation.",
+    "image_registry": [
+      {
+        "group_id": "group_00311",
+        "stable_id": "S01",
+        "source_path": "images/group_00311/image_01.jpg",
+        "prepared_ref": "images/img_5b4036e494fa5dfbf9a9.jpg"
+      },
+      {
+        "group_id": "group_00311",
+        "stable_id": "S02",
+        "source_path": "images/group_00311/image_02.jpg",
+        "prepared_ref": "images/img_ad20521e50dc58870114.jpg"
+      },
+      {
+        "group_id": "group_00311",
+        "stable_id": "S03",
+        "source_path": "images/group_00311/image_03.jpg",
+        "prepared_ref": "images/img_9501bef3f19b8e39bdf4.jpg"
+      },
+      {
+        "group_id": "group_00311",
+        "stable_id": "S04",
+        "source_path": "images/group_00311/image_04.jpg",
+        "prepared_ref": "images/img_0f173e95f79d1a5c835b.jpg"
+      }
+    ]
+  }
+]

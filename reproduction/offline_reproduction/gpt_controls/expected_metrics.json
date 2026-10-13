@@ -1,0 +1,132 @@
+{
+  "fixed_question_denominator": 288,
+  "new_ordinary_metrics": {
+    "n": 288,
+    "correct": 130,
+    "accuracy": 0.4513888888888889,
+    "macro_precision": 0.4565559440559441,
+    "macro_recall": 0.4530739745957137,
+    "macro_f1": 0.4505934320456614,
+    "joint": {
+      "FQ1_GEM": [
+        2,
+        48
+      ],
+      "NTS": [
+        10,
+        48
+      ],
+      "DIS": [
+        15,
+        48
+      ]
+    },
+    "coverage": {
+      "records": 288,
+      "valid": 288,
+      "invalid": 0,
+      "status_counts": {
+        "OK": 288
+      },
+      "invalid_reasons": {}
+    },
+    "confusion": {
+      "A": {
+        "A": 28,
+        "B": 9,
+        "C": 23,
+        "D": 15,
+        "INVALID": 0
+      },
+      "B": {
+        "A": 14,
+        "B": 29,
+        "C": 11,
+        "D": 16,
+        "INVALID": 0
+      },
+      "C": {
+        "A": 10,
+        "B": 5,
+        "C": 39,
+        "D": 15,
+        "INVALID": 0
+      },
+      "D": {
+        "A": 13,
+        "B": 12,
+        "C": 15,
+        "D": 34,
+        "INVALID": 0
+      }
+    }
+  },
+  "matched_two_execution_sets": {
+    "same_order_pair_both_correct": {
+      "successes": 82,
+      "n": 288,
+      "percent": 28.47222222222222
+    },
+    "same_order_pair_consistency": {
+      "successes": 154,
+      "n": 288,
+      "percent": 53.47222222222222
+    },
+    "rotation_pair_0_1_both_correct": {
+      "successes": 90,
+      "n": 288,
+      "percent": 31.25
+    },
+    "rotation_pair_0_1_consistency": {
+      "successes": 171,
+      "n": 288,
+      "percent": 59.375
+    },
+    "rotation_pair_0_2_both_correct": {
+      "successes": 88,
+      "n": 288,
+      "percent": 30.555555555555557
+    },
+    "rotation_pair_0_2_consistency": {
+      "successes": 158,
+      "n": 288,
+      "percent": 54.861111111111114
+    },
+    "rotation_pair_0_3_both_correct": {
+      "successes": 81,
+      "n": 288,
+      "percent": 28.125
+    },
+    "rotation_pair_0_3_consistency": {
+      "successes": 148,
+      "n": 288,
+      "percent": 51.388888888888886
+    }
+  },
+  "historical_circular_context_only": {
+    "source_items": 288,
+    "rotation_items": 1152,
+    "rotation_correct": [
+      131,
+      120,
+      122,
+      120
+    ],
+    "circular_correct": 54,
+    "consistent_items": 78,
+    "vanilla": 45.48611111111111,
+    "mean_rotation": 42.79513888888889,
+    "circular": 18.75,
+    "consistency": 27.083333333333332,
+    "drop": 26.73611111111111,
+    "coverage": {
+      "records": 1152,
+      "valid": 1152,
+      "invalid": 0,
+      "status_counts": {
+        "OK": 1152
+      },
+      "invalid_reasons": {}
+    }
+  }
+}

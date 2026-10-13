@@ -1,0 +1,22 @@
+{
+  "schema_version": "frameevidence-split-freeze-v1",
+  "status": "APPROVED",
+  "decision_date": "2026-09-29",
+  "decision": "Freeze the existing 192/32/96 train/dev/test assignment without reassignment and use it for all paper-facing training and evaluation.",
+  "manifest_sha256": "bc9afad049e3c6cbdc9b5328ea3c2bdb9be70f0ada784033c820ce80ee6a53d9",
+  "annotations_sha256": "9fe3013fe5abe61257490f44111607f23db6a9171bfd29c917e18ddae28c4496",
+  "train_allowlist_sha256": "ac52f40f5d5e903193e82a27d87cbb3d85442a5c834dd180d51cb717766e17ea",
+  "group_counts": {
+    "train": 192,
+    "dev": 32,
+    "test": 96
+  },
+  "item_counts": {
+    "train": 576,
+    "dev": 96,
+    "test": 288
+  },
+  "cluster_method": "exact_image_sha256_connected_components",
+  "claim_boundary": "The frozen split guarantees disjoint exact-image SHA-256 connected components across train, dev, and test. It does not claim detection of every visually related scene after crop, resize, re-encoding, or an unseen viewpoint.",
+  "retrain_rule": "Any later change to annotations.jsonl, split_manifest.csv, train_group_ids.csv, or their recorded SHA-256 values invalidates adapters and evaluation results and requires a full rerun."
+}

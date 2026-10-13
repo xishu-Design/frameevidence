@@ -1,0 +1,22 @@
+{
+  "model_id": "qwen25-vl-7b-base-multiseed-control",
+  "evaluation_mode": "all-images",
+  "source_type": "author_confirmed_summary",
+  "author_confirmation_date": "2026-10-09",
+  "metric_values_percent_from_author_supplied_summary": {
+    "vanilla_accuracy": 14.93,
+    "mean_rotation_accuracy": 18.75,
+    "strict_circular_accuracy": 2.08,
+    "semantic_consistency": 5.9,
+    "circular_drop_percentage_points": 12.85
+  },
+  "author_confirms_completed_run": true,
+  "completed_run_independently_recomputed": false,
+  "located_prediction_copy": {
+    "records": 1152,
+    "valid": 706,
+    "call_error": 446,
+    "interpretation": "Does not verify the author-confirmed completed run. Original files and audit status are preserved."
+  },
+  "reporting_boundary": "Display the author-confirmed aggregate row, not a claim that all eight configurations were independently recomputed from complete local predictions. Do not infer new uncertainty or significance from this summary."
+}

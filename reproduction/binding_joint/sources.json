@@ -1,0 +1,15 @@
+{
+  "paths_relative_to_paper_root": {
+    "pilot_metadata": "materials/binding_validation_20261010/prepared_72.metadata.jsonl",
+    "pilot_predictions": "materials/model_supplements_20261010/gpt_binding_stable72/predictions.jsonl",
+    "counterbalanced_schedule": "materials/diagnostic_controls_20261011/binding_counterbalanced144/schedule.jsonl",
+    "counterbalanced_predictions": "materials/diagnostic_controls_20261011/binding_counterbalanced144/predictions.jsonl"
+  },
+  "source_digests": {
+    "pilot_metadata": "8d136256a23d6fc08f97d0c01408a7c86a77a74c4f7a879dfe32ee13473967f1",
+    "pilot_predictions": "61b24939e97eacd992169e2caa9f49e5577277bc87de62a55a30b1f9c24fdc9a",
+    "counterbalanced_schedule": "8466ca0e53b0b828a4745e89306e19c0ade8d5eece34086f01934672564f0ed1",
+    "counterbalanced_predictions": "54d0a068e514f59a1201cbb03699e30595d8b4680f782928a06c51d96cee7000"
+  },
+  "snapshot_digest": "3548eb27b8fcb86e3473e18ec564c0fbaedbd587a61a4310dff8886a0d937c9d"
+}

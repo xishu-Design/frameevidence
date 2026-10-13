@@ -1,0 +1,53 @@
+{
+  "status": "INPUT_TRACE_VERIFIED",
+  "created_utc": "2026-10-12T10:18:59.083527+00:00",
+  "group_count": 48,
+  "case_count": 238,
+  "published_cases": 144,
+  "extra_deletion_candidates_without_labels": 94,
+  "single_member_deletions": 142,
+  "condition_counts": {
+    "one_valid_mss": 48,
+    "remove_required_view": 48,
+    "hard_distractor_added": 48,
+    "leave_one_mss_member_out": 94
+  },
+  "mss_size_groups": {
+    "2": 17,
+    "3": 16,
+    "4": 15
+  },
+  "published_deletion_strata": {
+    "anchor_removed": 36,
+    "ordinal_stable": 2,
+    "no_ordinal": 4,
+    "anchor_retained_shifted": 6
+  },
+  "source_asset_paths_verified": 190,
+  "normalized_unique_image_files": 125,
+  "original_prompts_checked": 144,
+  "previous_diagnostic_cases_checked": 238,
+  "new_model_calls": 0,
+  "new_human_records": 0,
+  "new_adjudicated_labels": 0,
+  "source_files_modified": false,
+  "semantic_validation_performed": false,
+  "source_paths": {
+    "annotations": "framebench/daily_20260922T075500Z/dataset/annotations.jsonl",
+    "mapping": "frameevidence_merge_20261006_200305/results/formal_2c289604aa45_test/private/evaluation_mapping.jsonl",
+    "prepared": "frameevidence_merge_20261006_200305/results/formal_2c289604aa45_test/prepared/prepared_inputs.jsonl",
+    "run_manifest": "frameevidence_merge_20261006_200305/results/formal_2c289604aa45_test/run_manifest.json",
+    "split": "framebench/FrameEvidence/results/formal_release_v1/formal_2c289604aa45/manifests/split_manifest.csv",
+    "previous_cases": "framebench/FrameEvidence/05_论文工程/manuscript_rebuild/materials/binding_validation_20261010/case_reference.jsonl",
+    "retained_runner": "formal_eval_runtime/dry_run_eval/runner.py"
+  },
+  "source_sha256": {
+    "annotations": "9fe3013fe5abe61257490f44111607f23db6a9171bfd29c917e18ddae28c4496",
+    "mapping": "57f4af9719a1164ed25da41430d302f44965d263a99bbba03a6847a3cf148e7e",
+    "prepared": "6c678a0aa5126768d5213a86902b624136a23c449f8938b558c5e6c7928dac2b",
+    "run_manifest": "d5406d2d9cd8ac5e8f33c6b3bbf26ddaf800c8783ea1422b40d0021489daa98b",
+    "split": "bc9afad049e3c6cbdc9b5328ea3c2bdb9be70f0ada784033c820ce80ee6a53d9",
+    "previous_cases": "34bc56101a7dc4a417a3f3869252b9933c577f73b39ab1811027abcfce75fd8d",
+    "retained_runner": "0dc82c4cff4531cd67bca2631e70b3ff7a77fb54e278a07440ded01e10c8d4cc"
+  }
+}

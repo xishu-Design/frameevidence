@@ -1,0 +1,239 @@
+﻿case_id,group_id,condition,kind,source_eval_id,released_answer_reference,image_order,removed_ids,added_ids
+eval_956eaa70b5b14f3fa75d,group_00307,one_valid_mss,published_case,eval_956eaa70b5b14f3fa75d,D,S01 S02,,
+eval_eb8828c99f4f7d9d8094,group_00307,remove_required_view,published_case,eval_eb8828c99f4f7d9d8094,C,S02,S01,
+eval_31098c3580d5068b277e,group_00307,hard_distractor_added,published_case,eval_31098c3580d5068b277e,D,S01 S02 S03,,S03
+group_00307|loo|images/group_00307/image_02.jpg,group_00307,leave_one_mss_member_out,additional_deletion_candidate,,,S01,S02,
+eval_fef696a72a589773c458,group_00311,one_valid_mss,published_case,eval_fef696a72a589773c458,D,S01 S02 S03,,
+eval_0c3d2aceceba3de427b1,group_00311,remove_required_view,published_case,eval_0c3d2aceceba3de427b1,B,S01 S02,S03,
+eval_ad8997866e998c52c0af,group_00311,hard_distractor_added,published_case,eval_ad8997866e998c52c0af,D,S01 S02 S03 S04,,S04
+group_00311|loo|images/group_00311/image_01.jpg,group_00311,leave_one_mss_member_out,additional_deletion_candidate,,,S02 S03,S01,
+group_00311|loo|images/group_00311/image_02.jpg,group_00311,leave_one_mss_member_out,additional_deletion_candidate,,,S01 S03,S02,
+eval_d6c01c3671bdb9bde77f,group_00318,one_valid_mss,published_case,eval_d6c01c3671bdb9bde77f,D,S01 S02 S03 S04,,
+eval_f92181d4ab1ad88c8472,group_00318,remove_required_view,published_case,eval_f92181d4ab1ad88c8472,A,S02 S03 S04,S01,
+eval_b07587ee15d14fe44eb9,group_00318,hard_distractor_added,published_case,eval_b07587ee15d14fe44eb9,D,S01 S02 S03 S04 S05,,S05
+group_00318|loo|images/group_00318/image_02.jpg,group_00318,leave_one_mss_member_out,additional_deletion_candidate,,,S01 S03 S04,S02,
+group_00318|loo|images/group_00318/image_03.jpg,group_00318,leave_one_mss_member_out,additional_deletion_candidate,,,S01 S02 S04,S03,
+group_00318|loo|images/group_00318/image_04.jpg,group_00318,leave_one_mss_member_out,additional_deletion_candidate,,,S01 S02 S03,S04,
+eval_72622c4f235485ad347d,group_00323,one_valid_mss,published_case,eval_72622c4f235485ad347d,B,S01 S02,,
+eval_4c83c7edfef177f04621,group_00323,remove_required_view,published_case,eval_4c83c7edfef177f04621,D,S02,S01,
+eval_f859219a3a66d5f28122,group_00323,hard_distractor_added,published_case,eval_f859219a3a66d5f28122,B,S01 S02 S03,,S03
+group_00323|loo|images/group_00323/image_02.jpg,group_00323,leave_one_mss_member_out,additional_deletion_candidate,,,S01,S02,
+eval_122ede8dd7f62afb228c,group_00325,one_valid_mss,published_case,eval_122ede8dd7f62afb228c,A,S01 S02,,
+eval_1795bef52ad2727ccbd1,group_00325,remove_required_view,published_case,eval_1795bef52ad2727ccbd1,C,S02,S01,
+eval_185ad2b8672114686a90,group_00325,hard_distractor_added,published_case,eval_185ad2b8672114686a90,A,S01 S02 S03,,S03
+group_00325|loo|images/group_00325/image_02.jpg,group_00325,leave_one_mss_member_out,additional_deletion_candidate,,,S01,S02,
+eval_9eb4d9cfd68d85951702,group_00326,one_valid_mss,published_case,eval_9eb4d9cfd68d85951702,C,S01 S02,,
+eval_77599f9b2630704fe5c3,group_00326,remove_required_view,published_case,eval_77599f9b2630704fe5c3,A,S02,S01,
+eval_90a6f909eb793c62bbfb,group_00326,hard_distractor_added,published_case,eval_90a6f909eb793c62bbfb,C,S01 S02 S03,,S03
+group_00326|loo|images/group_00326/image_02.jpg,group_00326,leave_one_mss_member_out,additional_deletion_candidate,,,S01,S02,
+eval_0db9a50bead87d516fde,group_00327,one_valid_mss,published_case,eval_0db9a50bead87d516fde,D,S01 S02,,
+eval_65f0bc1d00c29974e138,group_00327,remove_required_view,published_case,eval_65f0bc1d00c29974e138,A,S02,S01,
+eval_f3d5170e7f8d2d9e88b1,group_00327,hard_distractor_added,published_case,eval_f3d5170e7f8d2d9e88b1,D,S01 S02 S03,,S03
+group_00327|loo|images/group_00327/image_03.jpg,group_00327,leave_one_mss_member_out,additional_deletion_candidate,,,S01,S02,
+eval_af81505ffd55f3b7e9de,group_00328,one_valid_mss,published_case,eval_af81505ffd55f3b7e9de,C,S01 S02,,
+eval_137f6b76c56fc989d6ac,group_00328,remove_required_view,published_case,eval_137f6b76c56fc989d6ac,D,S02,S01,
+eval_d78347813d388f325ae4,group_00328,hard_distractor_added,published_case,eval_d78347813d388f325ae4,C,S01 S02 S03,,S03
+group_00328|loo|images/group_00328/image_02.jpg,group_00328,leave_one_mss_member_out,additional_deletion_candidate,,,S01,S02,
+eval_7371a64b5053553b24e5,group_00333,one_valid_mss,published_case,eval_7371a64b5053553b24e5,B,S01 S02 S03,,
+eval_7292a6aafc2892c9b5cf,group_00333,remove_required_view,published_case,eval_7292a6aafc2892c9b5cf,C,S02 S03,S01,
+eval_b1f757189c5723b4d619,group_00333,hard_distractor_added,published_case,eval_b1f757189c5723b4d619,B,S01 S02 S03 S04,,S04
+group_00333|loo|images/group_00333/image_02.jpg,group_00333,leave_one_mss_member_out,additional_deletion_candidate,,,S01 S03,S02,
+group_00333|loo|images/group_00333/image_03.jpg,group_00333,leave_one_mss_member_out,additional_deletion_candidate,,,S01 S02,S03,
+eval_b2d3969c7551b5a1bd1d,group_00336,one_valid_mss,published_case,eval_b2d3969c7551b5a1bd1d,D,S01 S02 S03 S04,,
+eval_6d3bba512d882f1dfe34,group_00336,remove_required_view,published_case,eval_6d3bba512d882f1dfe34,A,S02 S03 S04,S01,
+eval_78a67a4bdc78766b4296,group_00336,hard_distractor_added,published_case,eval_78a67a4bdc78766b4296,D,S01 S02 S03 S04 S05,,S05
+group_00336|loo|images/group_00336/image_02.jpg,group_00336,leave_one_mss_member_out,additional_deletion_candidate,,,S01 S03 S04,S02,
+group_00336|loo|images/group_00336/image_03.jpg,group_00336,leave_one_mss_member_out,additional_deletion_candidate,,,S01 S02 S04,S03,
+group_00336|loo|images/group_00336/image_04.jpg,group_00336,leave_one_mss_member_out,additional_deletion_candidate,,,S01 S02 S03,S04,
+eval_c2aadad3329d64916d2a,group_00337,one_valid_mss,published_case,eval_c2aadad3329d64916d2a,A,S01 S02 S03 S04,,
+eval_e05f1bb1f5d4f127aa14,group_00337,remove_required_view,published_case,eval_e05f1bb1f5d4f127aa14,B,S02 S03 S04,S01,
+eval_daa3393b7126d6b60731,group_00337,hard_distractor_added,published_case,eval_daa3393b7126d6b60731,A,S01 S02 S03 S04 S05,,S05
+group_00337|loo|images/group_00337/image_02.jpg,group_00337,leave_one_mss_member_out,additional_deletion_candidate,,,S01 S03 S04,S02,
+group_00337|loo|images/group_00337/image_03.jpg,group_00337,leave_one_mss_member_out,additional_deletion_candidate,,,S01 S02 S04,S03,
+group_00337|loo|images/group_00337/image_04.jpg,group_00337,leave_one_mss_member_out,additional_deletion_candidate,,,S01 S02 S03,S04,
+eval_ded3ae09014bf1805bec,group_00340,one_valid_mss,published_case,eval_ded3ae09014bf1805bec,C,S01 S02 S03 S04,,
+eval_dd8e3957080495881fdb,group_00340,remove_required_view,published_case,eval_dd8e3957080495881fdb,A,S02 S03 S04,S01,
+eval_66b5850138ad397d4f37,group_00340,hard_distractor_added,published_case,eval_66b5850138ad397d4f37,C,S01 S02 S03 S04 S05,,S05
+group_00340|loo|images/group_00340/image_02.jpg,group_00340,leave_one_mss_member_out,additional_deletion_candidate,,,S01 S03 S04,S02,
+group_00340|loo|images/group_00340/image_03.jpg,group_00340,leave_one_mss_member_out,additional_deletion_candidate,,,S01 S02 S04,S03,
+group_00340|loo|images/group_00340/image_04.jpg,group_00340,leave_one_mss_member_out,additional_deletion_candidate,,,S01 S02 S03,S04,
+eval_f2343cea50ed899883ac,group_00341,one_valid_mss,published_case,eval_f2343cea50ed899883ac,A,S01 S02,,
+eval_137de2879c89585cb22c,group_00341,remove_required_view,published_case,eval_137de2879c89585cb22c,B,S02,S01,
+eval_4ec9660556eb85ecdccb,group_00341,hard_distractor_added,published_case,eval_4ec9660556eb85ecdccb,A,S01 S02 S03,,S03
+group_00341|loo|images/group_00341/image_02.jpg,group_00341,leave_one_mss_member_out,additional_deletion_candidate,,,S01,S02,
+eval_a4aa48b363796e8cee5b,group_00347,one_valid_mss,published_case,eval_a4aa48b363796e8cee5b,A,S01 S02 S03,,
+eval_78252299a50b7321b4c7,group_00347,remove_required_view,published_case,eval_78252299a50b7321b4c7,C,S01 S02,S03,
+eval_04301921355847a510f9,group_00347,hard_distractor_added,published_case,eval_04301921355847a510f9,A,S01 S02 S03 S04,,S04
+group_00347|loo|images/group_00347/image_01.jpg,group_00347,leave_one_mss_member_out,additional_deletion_candidate,,,S02 S03,S01,
+group_00347|loo|images/group_00347/image_02.jpg,group_00347,leave_one_mss_member_out,additional_deletion_candidate,,,S01 S03,S02,
+eval_1e5ebdedd3a0a8640813,group_00349,one_valid_mss,published_case,eval_1e5ebdedd3a0a8640813,B,S01 S02 S03,,
+eval_fc5457e9b92128980031,group_00349,remove_required_view,published_case,eval_fc5457e9b92128980031,D,S02 S03,S01,
+eval_c7373287ad5b7f2d26e3,group_00349,hard_distractor_added,published_case,eval_c7373287ad5b7f2d26e3,B,S01 S02 S03 S04,,S04
+group_00349|loo|images/group_00349/image_02.jpg,group_00349,leave_one_mss_member_out,additional_deletion_candidate,,,S01 S03,S02,
+group_00349|loo|images/group_00349/image_03.jpg,group_00349,leave_one_mss_member_out,additional_deletion_candidate,,,S01 S02,S03,
+eval_cfd4661c15c3be0b2d93,group_00351,one_valid_mss,published_case,eval_cfd4661c15c3be0b2d93,C,S01 S02 S03,,
+eval_374f4b054908691c4575,group_00351,remove_required_view,published_case,eval_374f4b054908691c4575,D,S02 S03,S01,
+eval_78d2f45aca28cf298325,group_00351,hard_distractor_added,published_case,eval_78d2f45aca28cf298325,C,S01 S02 S03 S04,,S04
+group_00351|loo|images/group_00351/image_02.jpg,group_00351,leave_one_mss_member_out,additional_deletion_candidate,,,S01 S03,S02,
+group_00351|loo|images/group_00351/image_03.jpg,group_00351,leave_one_mss_member_out,additional_deletion_candidate,,,S01 S02,S03,
+eval_be40873e250c023061e8,group_00354,one_valid_mss,published_case,eval_be40873e250c023061e8,A,S01 S02 S03 S04,,
+eval_a667eff37f2fab813ed9,group_00354,remove_required_view,published_case,eval_a667eff37f2fab813ed9,D,S02 S03 S04,S01,
+eval_0f97c000e8a7401ef0bf,group_00354,hard_distractor_added,published_case,eval_0f97c000e8a7401ef0bf,A,S01 S02 S03 S04 S05,,S05
+group_00354|loo|images/group_00354/image_02.jpg,group_00354,leave_one_mss_member_out,additional_deletion_candidate,,,S01 S03 S04,S02,
+group_00354|loo|images/group_00354/image_03.jpg,group_00354,leave_one_mss_member_out,additional_deletion_candidate,,,S01 S02 S04,S03,
+group_00354|loo|images/group_00354/image_04.jpg,group_00354,leave_one_mss_member_out,additional_deletion_candidate,,,S01 S02 S03,S04,
+eval_d474e275405aa028e53b,group_00360,one_valid_mss,published_case,eval_d474e275405aa028e53b,A,S01 S02,,
+eval_b4f6840a8172df3b2c9e,group_00360,remove_required_view,published_case,eval_b4f6840a8172df3b2c9e,B,S02,S01,
+eval_aa1829c06434332c4d44,group_00360,hard_distractor_added,published_case,eval_aa1829c06434332c4d44,A,S01 S02 S03,,S03
+group_00360|loo|images/group_00360/image_02.jpg,group_00360,leave_one_mss_member_out,additional_deletion_candidate,,,S01,S02,
+eval_1db93263dfc6815c4b95,group_00361,one_valid_mss,published_case,eval_1db93263dfc6815c4b95,A,S01 S02,,
+eval_b98bc658210300aa3106,group_00361,remove_required_view,published_case,eval_b98bc658210300aa3106,D,S02,S01,
+eval_73b9d2414822d424131f,group_00361,hard_distractor_added,published_case,eval_73b9d2414822d424131f,A,S01 S02 S03,,S03
+group_00361|loo|images/group_00361/image_03.jpg,group_00361,leave_one_mss_member_out,additional_deletion_candidate,,,S01,S02,
+eval_ea447a6cb99c91d5d8da,group_00364,one_valid_mss,published_case,eval_ea447a6cb99c91d5d8da,C,S01 S02,,
+eval_fe22aa2b7cd16ed42145,group_00364,remove_required_view,published_case,eval_fe22aa2b7cd16ed42145,A,S02,S01,
+eval_e54aa85331f897cfce3a,group_00364,hard_distractor_added,published_case,eval_e54aa85331f897cfce3a,C,S01 S02 S03,,S03
+group_00364|loo|images/group_00364/image_02.jpg,group_00364,leave_one_mss_member_out,additional_deletion_candidate,,,S01,S02,
+eval_334ba1803f37e4a7049a,group_00368,one_valid_mss,published_case,eval_334ba1803f37e4a7049a,A,S01 S02 S03,,
+eval_c71257d77787e13e2f51,group_00368,remove_required_view,published_case,eval_c71257d77787e13e2f51,C,S02 S03,S01,
+eval_1c1204ac4a7318c55f34,group_00368,hard_distractor_added,published_case,eval_1c1204ac4a7318c55f34,A,S01 S02 S03 S04,,S04
+group_00368|loo|images/group_00368/image_02.jpg,group_00368,leave_one_mss_member_out,additional_deletion_candidate,,,S01 S03,S02,
+group_00368|loo|images/group_00368/image_03.jpg,group_00368,leave_one_mss_member_out,additional_deletion_candidate,,,S01 S02,S03,
+eval_d8f592d145010d1b2336,group_00369,one_valid_mss,published_case,eval_d8f592d145010d1b2336,A,S01 S02 S03,,
+eval_7e863c00b748d2e49be0,group_00369,remove_required_view,published_case,eval_7e863c00b748d2e49be0,D,S02 S03,S01,
+eval_0eeedde116b2532a736b,group_00369,hard_distractor_added,published_case,eval_0eeedde116b2532a736b,A,S01 S02 S03 S04,,S04
+group_00369|loo|images/group_00369/image_02.jpg,group_00369,leave_one_mss_member_out,additional_deletion_candidate,,,S01 S03,S02,
+group_00369|loo|images/group_00369/image_03.jpg,group_00369,leave_one_mss_member_out,additional_deletion_candidate,,,S01 S02,S03,
+eval_9205fedd95f1ba620cb7,group_00370,one_valid_mss,published_case,eval_9205fedd95f1ba620cb7,A,S01 S02 S03,,
+eval_efe1b4904466df49f5a7,group_00370,remove_required_view,published_case,eval_efe1b4904466df49f5a7,B,S02 S03,S01,
+eval_b55c1e2a2047203048fb,group_00370,hard_distractor_added,published_case,eval_b55c1e2a2047203048fb,A,S01 S02 S03 S04,,S04
+group_00370|loo|images/group_00370/image_02.jpg,group_00370,leave_one_mss_member_out,additional_deletion_candidate,,,S01 S03,S02,
+group_00370|loo|images/group_00370/image_03.jpg,group_00370,leave_one_mss_member_out,additional_deletion_candidate,,,S01 S02,S03,
+eval_351ea2f2725539315ceb,group_00373,one_valid_mss,published_case,eval_351ea2f2725539315ceb,A,S01 S02 S03 S04,,
+eval_c93f85edbc5f32a35b79,group_00373,remove_required_view,published_case,eval_c93f85edbc5f32a35b79,C,S02 S03 S04,S01,
+eval_b5cdab034e470e84ef40,group_00373,hard_distractor_added,published_case,eval_b5cdab034e470e84ef40,A,S01 S02 S03 S04 S05,,S05
+group_00373|loo|images/group_00373/image_02.jpg,group_00373,leave_one_mss_member_out,additional_deletion_candidate,,,S01 S03 S04,S02,
+group_00373|loo|images/group_00373/image_03.jpg,group_00373,leave_one_mss_member_out,additional_deletion_candidate,,,S01 S02 S04,S03,
+group_00373|loo|images/group_00373/image_04.jpg,group_00373,leave_one_mss_member_out,additional_deletion_candidate,,,S01 S02 S03,S04,
+eval_1460682a68605a2365d8,group_00377,one_valid_mss,published_case,eval_1460682a68605a2365d8,A,S01 S02,,
+eval_ccb28443a5250a1be0f4,group_00377,remove_required_view,published_case,eval_ccb28443a5250a1be0f4,D,S02,S01,
+eval_e6a7a61cb8393be03db2,group_00377,hard_distractor_added,published_case,eval_e6a7a61cb8393be03db2,A,S01 S02 S03,,S03
+group_00377|loo|images/group_00377/image_02.jpg,group_00377,leave_one_mss_member_out,additional_deletion_candidate,,,S01,S02,
+eval_f588a2de64b01b625aa1,group_00385,one_valid_mss,published_case,eval_f588a2de64b01b625aa1,D,S01 S02 S03,,
+eval_61a96183a5ce5e2dd13c,group_00385,remove_required_view,published_case,eval_61a96183a5ce5e2dd13c,A,S02 S03,S01,
+eval_f0ca415499cb7715c56b,group_00385,hard_distractor_added,published_case,eval_f0ca415499cb7715c56b,D,S01 S02 S03 S04,,S04
+group_00385|loo|images/group_00385/image_02.jpg,group_00385,leave_one_mss_member_out,additional_deletion_candidate,,,S01 S03,S02,
+group_00385|loo|images/group_00385/image_03.jpg,group_00385,leave_one_mss_member_out,additional_deletion_candidate,,,S01 S02,S03,
+eval_c58f703151ffb180a5f4,group_00389,one_valid_mss,published_case,eval_c58f703151ffb180a5f4,B,S01 S02 S03 S04,,
+eval_053f5d15eb032fc971e3,group_00389,remove_required_view,published_case,eval_053f5d15eb032fc971e3,A,S02 S03 S04,S01,
+eval_5977f042e0e2d9ff7e9e,group_00389,hard_distractor_added,published_case,eval_5977f042e0e2d9ff7e9e,B,S01 S02 S03 S04 S05,,S05
+group_00389|loo|images/group_00389/image_02.jpg,group_00389,leave_one_mss_member_out,additional_deletion_candidate,,,S01 S03 S04,S02,
+group_00389|loo|images/group_00389/image_03.jpg,group_00389,leave_one_mss_member_out,additional_deletion_candidate,,,S01 S02 S04,S03,
+group_00389|loo|images/group_00389/image_04.jpg,group_00389,leave_one_mss_member_out,additional_deletion_candidate,,,S01 S02 S03,S04,
+eval_66a47a3d386a417f756b,group_00392,one_valid_mss,published_case,eval_66a47a3d386a417f756b,B,S01 S02 S03 S04,,
+eval_0e80f0b7d1435f93e33c,group_00392,remove_required_view,published_case,eval_0e80f0b7d1435f93e33c,D,S02 S03 S04,S01,
+eval_ff163e49f2f95d06abcb,group_00392,hard_distractor_added,published_case,eval_ff163e49f2f95d06abcb,B,S01 S02 S03 S04 S05,,S05
+group_00392|loo|images/group_00392/image_02.jpg,group_00392,leave_one_mss_member_out,additional_deletion_candidate,,,S01 S03 S04,S02,
+group_00392|loo|images/group_00392/image_03.jpg,group_00392,leave_one_mss_member_out,additional_deletion_candidate,,,S01 S02 S04,S03,
+group_00392|loo|images/group_00392/image_04.jpg,group_00392,leave_one_mss_member_out,additional_deletion_candidate,,,S01 S02 S03,S04,
+eval_344fddc0aa3a5b76d71e,group_00396,one_valid_mss,published_case,eval_344fddc0aa3a5b76d71e,C,S01 S02,,
+eval_95d766ba40b751e9badb,group_00396,remove_required_view,published_case,eval_95d766ba40b751e9badb,B,S02,S01,
+eval_58e639ad93ce1609865e,group_00396,hard_distractor_added,published_case,eval_58e639ad93ce1609865e,C,S01 S02 S03,,S03
+group_00396|loo|images/group_00396/image_02.jpg,group_00396,leave_one_mss_member_out,additional_deletion_candidate,,,S01,S02,
+eval_dee083a325a12a1bd483,group_00400,one_valid_mss,published_case,eval_dee083a325a12a1bd483,D,S01 S02 S03,,
+eval_af15bdbd18a3075d2027,group_00400,remove_required_view,published_case,eval_af15bdbd18a3075d2027,C,S02 S03,S01,
+eval_1430724888f1bcd2ffd8,group_00400,hard_distractor_added,published_case,eval_1430724888f1bcd2ffd8,D,S01 S02 S03 S04,,S04
+group_00400|loo|images/group_00400/image_02.jpg,group_00400,leave_one_mss_member_out,additional_deletion_candidate,,,S01 S03,S02,
+group_00400|loo|images/group_00400/image_03.jpg,group_00400,leave_one_mss_member_out,additional_deletion_candidate,,,S01 S02,S03,
+eval_116679f04bad7a62ea57,group_00401,one_valid_mss,published_case,eval_116679f04bad7a62ea57,B,S01 S02 S03,,
+eval_fd7097cef1954f4b5f5f,group_00401,remove_required_view,published_case,eval_fd7097cef1954f4b5f5f,D,S02 S03,S01,
+eval_65deed98226ac21faa73,group_00401,hard_distractor_added,published_case,eval_65deed98226ac21faa73,B,S01 S02 S03 S04,,S04
+group_00401|loo|images/group_00401/image_02.jpg,group_00401,leave_one_mss_member_out,additional_deletion_candidate,,,S01 S03,S02,
+group_00401|loo|images/group_00401/image_03.jpg,group_00401,leave_one_mss_member_out,additional_deletion_candidate,,,S01 S02,S03,
+eval_62d4a8fec8772920992d,group_00405,one_valid_mss,published_case,eval_62d4a8fec8772920992d,D,S01 S02 S03,,
+eval_7df1e52bbd869055ec8b,group_00405,remove_required_view,published_case,eval_7df1e52bbd869055ec8b,B,S02 S03,S01,
+eval_ac59f9c9301c8bda9024,group_00405,hard_distractor_added,published_case,eval_ac59f9c9301c8bda9024,D,S01 S02 S03 S04,,S04
+group_00405|loo|images/group_00405/image_02.jpg,group_00405,leave_one_mss_member_out,additional_deletion_candidate,,,S01 S03,S02,
+group_00405|loo|images/group_00405/image_03.jpg,group_00405,leave_one_mss_member_out,additional_deletion_candidate,,,S01 S02,S03,
+eval_d56c43c019e947c4d7c1,group_00406,one_valid_mss,published_case,eval_d56c43c019e947c4d7c1,C,S01 S02 S03 S04,,
+eval_6cc6a5fe0216c740771b,group_00406,remove_required_view,published_case,eval_6cc6a5fe0216c740771b,D,S02 S03 S04,S01,
+eval_d1dffa80254b7a95f9a3,group_00406,hard_distractor_added,published_case,eval_d1dffa80254b7a95f9a3,C,S01 S02 S03 S04 S05,,S05
+group_00406|loo|images/group_00406/image_02.jpg,group_00406,leave_one_mss_member_out,additional_deletion_candidate,,,S01 S03 S04,S02,
+group_00406|loo|images/group_00406/image_03.jpg,group_00406,leave_one_mss_member_out,additional_deletion_candidate,,,S01 S02 S04,S03,
+group_00406|loo|images/group_00406/image_04.jpg,group_00406,leave_one_mss_member_out,additional_deletion_candidate,,,S01 S02 S03,S04,
+eval_00d8f0002063f18dcb1a,group_00412,one_valid_mss,published_case,eval_00d8f0002063f18dcb1a,D,S01 S02,,
+eval_d68dea8eb3a0becc474b,group_00412,remove_required_view,published_case,eval_d68dea8eb3a0becc474b,C,S02,S01,
+eval_f0385d4d80214b20d881,group_00412,hard_distractor_added,published_case,eval_f0385d4d80214b20d881,D,S01 S02 S03,,S03
+group_00412|loo|images/group_00412/image_02.jpg,group_00412,leave_one_mss_member_out,additional_deletion_candidate,,,S01,S02,
+eval_b7f70174825443d69352,group_00417,one_valid_mss,published_case,eval_b7f70174825443d69352,C,S01 S02,,
+eval_855db3a0382917e36b65,group_00417,remove_required_view,published_case,eval_855db3a0382917e36b65,B,S02,S01,
+eval_97724d301c1e33afdfaa,group_00417,hard_distractor_added,published_case,eval_97724d301c1e33afdfaa,C,S01 S02 S03,,S03
+group_00417|loo|images/group_00417/image_02.jpg,group_00417,leave_one_mss_member_out,additional_deletion_candidate,,,S01,S02,
+eval_dabe3fa245a25f7b3f80,group_00418,one_valid_mss,published_case,eval_dabe3fa245a25f7b3f80,B,S01 S02 S03,,
+eval_9b12857e3caeaf2aab5f,group_00418,remove_required_view,published_case,eval_9b12857e3caeaf2aab5f,D,S02 S03,S01,
+eval_234d47403559323c2181,group_00418,hard_distractor_added,published_case,eval_234d47403559323c2181,B,S01 S02 S03 S04,,S04
+group_00418|loo|images/group_00418/image_02.jpg,group_00418,leave_one_mss_member_out,additional_deletion_candidate,,,S01 S03,S02,
+group_00418|loo|images/group_00418/image_03.jpg,group_00418,leave_one_mss_member_out,additional_deletion_candidate,,,S01 S02,S03,
+eval_eccf3537d577f997a83d,group_00424,one_valid_mss,published_case,eval_eccf3537d577f997a83d,C,S01 S02 S03 S04,,
+eval_d7ce7560fe6e47acd1fd,group_00424,remove_required_view,published_case,eval_d7ce7560fe6e47acd1fd,B,S02 S03 S04,S01,
+eval_ff3c8491d44b54d25a9e,group_00424,hard_distractor_added,published_case,eval_ff3c8491d44b54d25a9e,C,S01 S02 S03 S04 S05,,S05
+group_00424|loo|images/group_00424/image_02.jpg,group_00424,leave_one_mss_member_out,additional_deletion_candidate,,,S01 S03 S04,S02,
+group_00424|loo|images/group_00424/image_03.jpg,group_00424,leave_one_mss_member_out,additional_deletion_candidate,,,S01 S02 S04,S03,
+group_00424|loo|images/group_00424/image_04.jpg,group_00424,leave_one_mss_member_out,additional_deletion_candidate,,,S01 S02 S03,S04,
+eval_9e14f0824dce0b535147,group_00426,one_valid_mss,published_case,eval_9e14f0824dce0b535147,D,S01 S02 S03 S04,,
+eval_7b25967d9365cc0af3b1,group_00426,remove_required_view,published_case,eval_7b25967d9365cc0af3b1,A,S02 S03 S04,S01,
+eval_61b372c4122826d3c8e8,group_00426,hard_distractor_added,published_case,eval_61b372c4122826d3c8e8,D,S01 S02 S03 S04 S05,,S05
+group_00426|loo|images/group_00426/image_02.jpg,group_00426,leave_one_mss_member_out,additional_deletion_candidate,,,S01 S03 S04,S02,
+group_00426|loo|images/group_00426/image_03.jpg,group_00426,leave_one_mss_member_out,additional_deletion_candidate,,,S01 S02 S04,S03,
+group_00426|loo|images/group_00426/image_04.jpg,group_00426,leave_one_mss_member_out,additional_deletion_candidate,,,S01 S02 S03,S04,
+eval_aa22cba72b65464675af,group_00427,one_valid_mss,published_case,eval_aa22cba72b65464675af,C,S01 S02 S03 S04,,
+eval_157f7556db3676f3cfe0,group_00427,remove_required_view,published_case,eval_157f7556db3676f3cfe0,A,S02 S03 S04,S01,
+eval_bd1f14594fb84cac59b1,group_00427,hard_distractor_added,published_case,eval_bd1f14594fb84cac59b1,C,S01 S02 S03 S04 S05,,S05
+group_00427|loo|images/group_00427/image_02.jpg,group_00427,leave_one_mss_member_out,additional_deletion_candidate,,,S01 S03 S04,S02,
+group_00427|loo|images/group_00427/image_03.jpg,group_00427,leave_one_mss_member_out,additional_deletion_candidate,,,S01 S02 S04,S03,
+group_00427|loo|images/group_00427/image_04.jpg,group_00427,leave_one_mss_member_out,additional_deletion_candidate,,,S01 S02 S03,S04,
+eval_b9b5b9577e466e258531,group_00433,one_valid_mss,published_case,eval_b9b5b9577e466e258531,D,S01 S02,,
+eval_ac220d5887576a493e28,group_00433,remove_required_view,published_case,eval_ac220d5887576a493e28,C,S02,S01,
+eval_8d5ea9c54880f6a09671,group_00433,hard_distractor_added,published_case,eval_8d5ea9c54880f6a09671,D,S01 S02 S03,,S03
+group_00433|loo|images/group_00433/image_02.jpg,group_00433,leave_one_mss_member_out,additional_deletion_candidate,,,S01,S02,
+eval_ce28630713bba3265be7,group_00436,one_valid_mss,published_case,eval_ce28630713bba3265be7,C,S01 S02 S03,,
+eval_26d0f9ebc431f841b137,group_00436,remove_required_view,published_case,eval_26d0f9ebc431f841b137,B,S02 S03,S01,
+eval_ca55d2dc146720cd3a73,group_00436,hard_distractor_added,published_case,eval_ca55d2dc146720cd3a73,C,S01 S02 S03 S04,,S04
+group_00436|loo|images/group_00436/image_02.jpg,group_00436,leave_one_mss_member_out,additional_deletion_candidate,,,S01 S03,S02,
+group_00436|loo|images/group_00436/image_03.jpg,group_00436,leave_one_mss_member_out,additional_deletion_candidate,,,S01 S02,S03,
+eval_b8cf4910aaffc6c4c2d6,group_00443,one_valid_mss,published_case,eval_b8cf4910aaffc6c4c2d6,C,S01 S02 S03 S04,,
+eval_b894424919cc6429203f,group_00443,remove_required_view,published_case,eval_b894424919cc6429203f,B,S02 S03 S04,S01,
+eval_9918889aad6d91bc1bb1,group_00443,hard_distractor_added,published_case,eval_9918889aad6d91bc1bb1,C,S01 S02 S03 S04 S05,,S05
+group_00443|loo|images/group_00443/image_02.jpg,group_00443,leave_one_mss_member_out,additional_deletion_candidate,,,S01 S03 S04,S02,
+group_00443|loo|images/group_00443/image_03.jpg,group_00443,leave_one_mss_member_out,additional_deletion_candidate,,,S01 S02 S04,S03,
+group_00443|loo|images/group_00443/image_04.jpg,group_00443,leave_one_mss_member_out,additional_deletion_candidate,,,S01 S02 S03,S04,
+eval_5be6b1386be55b142561,group_00448,one_valid_mss,published_case,eval_5be6b1386be55b142561,B,S01 S02,,
+eval_5930461fb594df907046,group_00448,remove_required_view,published_case,eval_5930461fb594df907046,A,S02,S01,
+eval_ed2f7339b155aedbfa6b,group_00448,hard_distractor_added,published_case,eval_ed2f7339b155aedbfa6b,B,S01 S02 S03,,S03
+group_00448|loo|images/group_00448/image_02.jpg,group_00448,leave_one_mss_member_out,additional_deletion_candidate,,,S01,S02,
+eval_4f24c157fc5d10df8afc,group_00452,one_valid_mss,published_case,eval_4f24c157fc5d10df8afc,B,S01 S02,,
+eval_17807526215df27b72d2,group_00452,remove_required_view,published_case,eval_17807526215df27b72d2,C,S02,S01,
+eval_a505392038e5229bd666,group_00452,hard_distractor_added,published_case,eval_a505392038e5229bd666,B,S01 S02 S03,,S03
+group_00452|loo|images/group_00452/image_02.jpg,group_00452,leave_one_mss_member_out,additional_deletion_candidate,,,S01,S02,
+eval_62e151313520295a727e,group_00454,one_valid_mss,published_case,eval_62e151313520295a727e,B,S01 S02 S03,,
+eval_11096acbdb8ff4dc001c,group_00454,remove_required_view,published_case,eval_11096acbdb8ff4dc001c,A,S02 S03,S01,
+eval_9ce29e85ffa4d78faea9,group_00454,hard_distractor_added,published_case,eval_9ce29e85ffa4d78faea9,B,S01 S02 S03 S04,,S04
+group_00454|loo|images/group_00454/image_02.jpg,group_00454,leave_one_mss_member_out,additional_deletion_candidate,,,S01 S03,S02,
+group_00454|loo|images/group_00454/image_03.jpg,group_00454,leave_one_mss_member_out,additional_deletion_candidate,,,S01 S02,S03,
+eval_e36d777fe782cb3d994e,group_00455,one_valid_mss,published_case,eval_e36d777fe782cb3d994e,B,S01 S02 S03,,
+eval_399d8d6504255e8671fe,group_00455,remove_required_view,published_case,eval_399d8d6504255e8671fe,A,S02 S03,S01,
+eval_3144a0f1e2d32f47e055,group_00455,hard_distractor_added,published_case,eval_3144a0f1e2d32f47e055,B,S01 S02 S03 S04,,S04
+group_00455|loo|images/group_00455/image_02.jpg,group_00455,leave_one_mss_member_out,additional_deletion_candidate,,,S01 S03,S02,
+group_00455|loo|images/group_00455/image_03.jpg,group_00455,leave_one_mss_member_out,additional_deletion_candidate,,,S01 S02,S03,
+eval_8951d2d05070bc4fa8de,group_00460,one_valid_mss,published_case,eval_8951d2d05070bc4fa8de,A,S01 S02 S03 S04,,
+eval_4dd7b5fb25e3c9b662bd,group_00460,remove_required_view,published_case,eval_4dd7b5fb25e3c9b662bd,C,S02 S03 S04,S01,
+eval_58a790397f6267c9c91c,group_00460,hard_distractor_added,published_case,eval_58a790397f6267c9c91c,A,S01 S02 S03 S04 S05,,S05
+group_00460|loo|images/group_00460/image_02.jpg,group_00460,leave_one_mss_member_out,additional_deletion_candidate,,,S01 S03 S04,S02,
+group_00460|loo|images/group_00460/image_03.jpg,group_00460,leave_one_mss_member_out,additional_deletion_candidate,,,S01 S02 S04,S03,
+group_00460|loo|images/group_00460/image_04.jpg,group_00460,leave_one_mss_member_out,additional_deletion_candidate,,,S01 S02 S03,S04,
+eval_25159f19b173e2c01a77,group_00461,one_valid_mss,published_case,eval_25159f19b173e2c01a77,D,S01 S02 S03 S04,,
+eval_39ceac83485c9cd7503d,group_00461,remove_required_view,published_case,eval_39ceac83485c9cd7503d,B,S02 S03 S04,S01,
+eval_20f06513a844c7810cbb,group_00461,hard_distractor_added,published_case,eval_20f06513a844c7810cbb,D,S01 S02 S03 S04 S05,,S05
+group_00461|loo|images/group_00461/image_02.jpg,group_00461,leave_one_mss_member_out,additional_deletion_candidate,,,S01 S03 S04,S02,
+group_00461|loo|images/group_00461/image_03.jpg,group_00461,leave_one_mss_member_out,additional_deletion_candidate,,,S01 S02 S04,S03,
+group_00461|loo|images/group_00461/image_04.jpg,group_00461,leave_one_mss_member_out,additional_deletion_candidate,,,S01 S02 S03,S04,

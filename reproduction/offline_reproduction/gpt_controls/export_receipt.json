@@ -1,0 +1,29 @@
+{
+  "source_files_unchanged": true,
+  "files": {
+    "ordinary_items.jsonl": {
+      "records": 288,
+      "source_sha256": "57f4af9719a1164ed25da41430d302f44965d263a99bbba03a6847a3cf148e7e",
+      "export_sha256": "97909bbc7775a128c88bc144d00d7cd69914affc389baaa6c423783416519938"
+    },
+    "circular_items.jsonl": {
+      "records": 1152,
+      "source_sha256": "d0968130678c2420c7554eda4b4b83390fb7b2eb4cac5b6cca98f6238038b122",
+      "export_sha256": "7b916dec0002378d4aac1f6a9cee2b8f2ff3fb3d37b0148d9547423ec93674ed"
+    },
+    "circular_predictions.jsonl": {
+      "records": 1152,
+      "source_sha256": "c859dd2492b898945780e9a3641a5e09d65a149d6b7c7304fa927a925ef66773",
+      "export_sha256": "622e2ade0db17c6e2aa50890856289fac2919c1cec3a9dda987715377faafd34"
+    },
+    "repeat_predictions.jsonl": {
+      "records": 288,
+      "source_sha256": "13e6117d9d5962e6b3e0e4158c1348ec26b2595f34f48cba41fe4c6231084ddb",
+      "export_sha256": "90efd1dd3f6f2887b437bc015ef5d0ccaaafe356306e4a0c1ed121ba90a56f3a"
+    },
+    "expected_metrics.json": {
+      "source_sha256": "76c2ec5bcef0d354dc930f04f778f9bd5c2489a2d1e2b5d3d23fdde66f313cc7",
+      "export_sha256": "8e0ac90e8e8d0b61bd43d03a9583ea6fdbdbaca60711d6a32f6ca2c586e477b2"
+    }
+  }
+}
